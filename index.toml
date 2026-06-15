@@ -10510,18 +10510,6 @@ file = "instance.png"
 hash = "efd488c2f003cbd4b7ef9a50a9b56c74fb2ddcb8bd4a6721fdf8eceb7a852cf2"
 
 [[files]]
-file = "mods/.connector/patch_audit.txt"
-hash = "894031c9414569a71d4b44ca525c654d5d07f848afad79c2a3a57cbb025421e4"
-
-[[files]]
-file = "mods/.connector/swingthrough-1.0.5+1.21_mapped_moj_1.21.1.jar"
-hash = "6ad4581fe8791e668456688055bbee3a8a08239d7f57a55ee5c0658ccf15ae22"
-
-[[files]]
-file = "mods/.connector/swingthrough-1.0.5+1.21_mapped_moj_1.21.1.jar.input"
-hash = "409c1d1e7ccbd3412d0ea613a71ebe5b737f39cc5120988ff555709373f9acd1"
-
-[[files]]
 file = "mods/AdvancedLootInfo-neoforge-1.21.1-1.12.0.pw.toml"
 hash = "4ecdc8af5f830c5efbe5f32d9f1db9112b20880654479e0f213480669d9e4e3a"
 metafile = true
