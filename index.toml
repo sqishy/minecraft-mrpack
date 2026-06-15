@@ -195,7 +195,7 @@ hash = "3b30e36007d2165569247e9060ca1b6cbf597ad3c4802c493b89a91bdb8e3aa2"
 
 [[files]]
 file = "config/cobblemonraiddens/common.json5"
-hash = "6be311cf91626fe369f166bf65b368e57cb0929cfff353dced2652cc64d008ea"
+hash = "47405d32961506d52758ec066dd50c1166efb04e57f6c8876514b5c15a162634"
 
 [[files]]
 file = "config/cobblemonraiddens/conditions.json5"
@@ -10981,10 +10981,6 @@ metafile = true
 file = "mods/rctapi-neoforge-1.21.1-0.15.2-beta.pw.toml"
 hash = "fc9ba068b9c38f658fef133810b204c38398e01c4b25ccddf771ef5c386f6498"
 metafile = true
-
-[[files]]
-file = "mods/repelreforged-1.0.1.jar"
-hash = "f8b59a86ac411c428beb4d8cb852889494d50c4bc25a03612b02b2cf6a9e848e"
 
 [[files]]
 file = "mods/resourcefullib-neoforge-1.21-3.0.12.pw.toml"
