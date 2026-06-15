@@ -510,10 +510,6 @@ file = "config/defaultoptions/extra/config/notenoughanimations.json"
 hash = "f734f35399f949a79b29328d6d0398027a5e5c4f5ffa15f35a44c8054b54da34"
 
 [[files]]
-file = "config/defaultoptions/extra/config/particlerain.json"
-hash = "9f85d20ce5c832d3b829dbc8af7891c01055937b6e39a946c74e71713e9423dc"
-
-[[files]]
 file = "config/defaultoptions/extra/config/particular-common.toml"
 hash = "41e993504179fc5eaaef53223007fab960d484b286d846bd5311a11b32f99a58"
 
@@ -10230,14 +10226,6 @@ file = "config/openloader/resources/Cobblemon-Tips-2.0.zip"
 hash = "4b235f857e98840111f1fbb7f28996ff057b2f6e445aae34e377f8ce33a4a9f5"
 
 [[files]]
-file = "config/particlerain.json"
-hash = "9f85d20ce5c832d3b829dbc8af7891c01055937b6e39a946c74e71713e9423dc"
-
-[[files]]
-file = "config/particlerain/config.json"
-hash = "bd8abf7000e1cd681b090d8425b808f196297b6af473826405321d037e6fdd3a"
-
-[[files]]
 file = "config/particular-common.toml"
 hash = "21c3dc130bf6f870a6566a59b39609f49ccc6c12020c98bf42383e7e3d24d34f"
 
@@ -10984,11 +10972,6 @@ metafile = true
 [[files]]
 file = "mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.pw.toml"
 hash = "8331849bff45642bb3c96f6a83b5ba8ffaffbe83789b54106d2d1b588f42c1ac"
-metafile = true
-
-[[files]]
-file = "mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.pw.toml"
-hash = "7d40953dcbb53966370b3e39a4fbc59dd24c43a709e4d77f21e9df511bf40318"
 metafile = true
 
 [[files]]
