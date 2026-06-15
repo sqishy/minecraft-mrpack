@@ -1,0 +1,8 @@
+name = "cobblemon_battle_tower-neoforge-1.10.22"
+filename = "cobblemon_battle_tower-neoforge-1.10.22.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v19DG9nW/versions/ukAxBmWe/cobblemon_battle_tower-neoforge-1.10.22.jar"
+hash-format = "sha512"
+hash = "ae3f412e57f1c90d58ffa1a2054acf1d90ee1a1823f55bb9355f7c1b67fd85821699ccdeb542e1228e2d1bf9eaaf4a505e15cd1ebc013392c055b72ca6214dd5"

@@ -1,0 +1,3 @@
+# packwiz hashes are computed on exact bytes — disable ALL EOL/text normalization
+# so the files GitHub Pages serves match the sha256/sha512 in index.toml.
+* -text

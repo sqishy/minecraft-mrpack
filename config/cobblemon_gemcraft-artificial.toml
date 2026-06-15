@@ -1,0 +1,106 @@
+#Cobblemon Craftable Mons Configuration
+#Disable specific assemblies to restrict certain Pokemon from being craftable
+[assemblies]
+
+	#Simple Assembly Blocks
+	[assemblies.simple]
+		#Enable Beldum Assembly
+		beldum_enabled = true
+		#Enable Magnemite Assembly
+		magnemite_enabled = true
+		#Enable Golett Assembly
+		golett_enabled = true
+		#Enable Klink Assembly
+		klink_enabled = true
+		#Enable Porygon CD - Use on PC to spawn Porygon
+		porygon_cd_enabled = true
+		#Enable Voltorb Assembly
+		voltorb_enabled = true
+		#Enable Castform Assembly
+		castform_enabled = true
+		#Enable Varoom Assembly (spawns level 20)
+		varoom_enabled = true
+
+	#Colored Assembly Blocks
+	[assemblies.colored]
+		#Enable all Baltoy Colored Assemblies (16 color variants)
+		baltoy_assemblies_enabled = true
+
+	#Multiblock Assemblies
+	[assemblies.multiblock]
+		#Enable Magearna Assembly (2-piece multiblock)
+		magearna_enabled = true
+		#Enable Genesect Assembly (3-piece multiblock)
+		genesect_enabled = true
+
+#Special Systems
+[systems]
+	#Enable Living Enchantment (Honedge line from sword kills)
+	living_enchantment_enabled = true
+	#Enable Grimer Potion system
+	grimer_potions_enabled = true
+	#Enable Haunted Doll (5% chance to spawn hostile Shuppet when player nearby)
+	haunted_doll_enabled = true
+
+[chimera_serum]
+	#Enable Chimera Serum system (Type: Null brewing chain)
+	enabled = true
+	#Level of Type: Null when created
+	# Default: 40
+	# Range: 1 ~ 100
+	type_null_level = 40
+	#Number of guaranteed perfect IVs for Type: Null
+	# Default: 3
+	# Range: 0 ~ 6
+	type_null_perfect_ivs = 3
+
+[mewtwo_system]
+	#Enable Mewtwo system (Mew DNA Fossil)
+	enabled = true
+	#Force Mewtwo system even if another mod provides it
+	force_if_conflict = false
+	#Level of Mew when created from fossil
+	# Default: 5
+	# Range: 1 ~ 100
+	mew_level = 5
+	#Level of Mewtwo when created
+	# Default: 70
+	# Range: 1 ~ 100
+	mewtwo_level = 70
+	#Number of guaranteed perfect IVs for Mewtwo
+	# Default: 5
+	# Range: 0 ~ 6
+	mewtwo_perfect_ivs = 5
+
+#Serum Stability Puzzle System
+#The stability system creates a puzzle when infusing type gems into serums.
+#Players must carefully choose the order to add types based on type matchups.
+[serum_stability]
+	#Starting stability when beginning a new serum infusion.
+	#Higher values make the puzzle easier.
+	# Default: 50
+	# Range: 1 ~ 200
+	starting_stability = 50
+	#Maximum stability a serum can have.
+	#Stability is capped at this value, preventing excessive banking.
+	# Default: 100
+	# Range: 50 ~ 500
+	max_stability = 100
+	#Stability penalty for each type in the serum that the new gem is weak to.
+	#Higher values make the puzzle harder.
+	# Default: 15
+	# Range: 1 ~ 50
+	weakness_penalty = 15
+	#Stability bonus for each type in the serum that the new gem is super effective against.
+	#Higher values make the puzzle easier.
+	# Default: 10
+	# Range: 1 ~ 50
+	super_effective_bonus = 10
+	#Whether brewing an unstable gem combination causes an explosion.
+	#If disabled, the brewing simply fails with no explosion.
+	explosions_enabled = true
+	#Strength of the explosion when stability drops below 0.
+	#2.0 is similar to a creeper. Set to 0 for no damage, up to 10.0 for devastating.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	explosion_strength = 2.0

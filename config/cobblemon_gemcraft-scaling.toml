@@ -1,0 +1,73 @@
+#Enable or disable structure-based level scaling
+#This works alongside Cobbled Levels - it applies structure bonuses/penalties
+#to the level that Cobbled Levels (or base Cobblemon) has already set
+enabled = true
+#Enable debug logging for structure detection and level modifications
+debugLogging = false
+#Absolute minimum level a Pokemon can be scaled down to
+# Default: 1
+# Range: 1 ~ 100
+absoluteMinLevel = 1
+#Absolute maximum level a Pokemon can be scaled up to
+# Default: 100
+# Range: 1 ~ 100
+absoluteMaxLevel = 100
+
+#Structure level modifiers
+#Values are multipliers: 1.3 = +30% level, 0.8 = -20% level
+#Set to 1.0 to disable a specific structure modifier
+[structures]
+	#Ocean Monument - Elder Guardians, dangerous area
+	# Default: 1.3
+	# Range: 0.5 ~ 3.0
+	oceanMonument = 1.3
+	#Stronghold - Gateway to the End, very dangerous
+	# Default: 1.5
+	# Range: 0.5 ~ 3.0
+	stronghold = 1.5
+	#Woodland Mansion - Illagers, dangerous
+	# Default: 1.4
+	# Range: 0.5 ~ 3.0
+	woodlandMansion = 1.4
+	#Pillager Outpost - Hostile territory
+	# Default: 1.2
+	# Range: 0.5 ~ 3.0
+	pillagerOutpost = 1.2
+	#Ancient City - Deep dark, extremely dangerous
+	# Default: 1.6
+	# Range: 0.5 ~ 3.0
+	ancientCity = 1.6
+	#Trial Chambers - Challenge area
+	# Default: 1.4
+	# Range: 0.5 ~ 3.0
+	trialChambers = 1.4
+	#Village - Civilized, safer area
+	# Default: 0.8
+	# Range: 0.5 ~ 3.0
+	village = 0.8
+	#Nether Fortress - Blazes and Wither Skeletons
+	# Default: 1.3
+	# Range: 0.5 ~ 3.0
+	netherFortress = 1.3
+	#Bastion Remnant - Piglin territory, very dangerous
+	# Default: 1.4
+	# Range: 0.5 ~ 3.0
+	bastionRemnant = 1.4
+	#End City - Shulkers and high-tier loot area
+	# Default: 1.5
+	# Range: 0.5 ~ 3.0
+	endCity = 1.5
+
+#Cache settings
+#Structure lookups can be expensive, so results are cached per chunk
+[cache]
+	#How long to cache structure detection results (in ticks)
+	#20 ticks = 1 second, 6000 ticks = 5 minutes
+	#Structures don't change, so long cache times are safe
+	# Default: 12000
+	# Range: 200 ~ 72000
+	expiryTicks = 12000
+	#Maximum number of chunks to keep in cache
+	# Default: 1000
+	# Range: 100 ~ 10000
+	maxSize = 1000

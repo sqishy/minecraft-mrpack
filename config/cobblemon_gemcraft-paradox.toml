@@ -1,0 +1,38 @@
+#Cobblemon Paradox Machine Configuration
+[paradox_machine]
+	#Enable Paradox Machine system (Paradox Pokemon and Ultra Beasts)
+	enabled = true
+	#Processing time in ticks (1200 = 1 minute)
+	# Default: 1200
+	# Range: 200 ~ 12000
+	processing_time_ticks = 1200
+	#Level of spawned Paradox Pokemon
+	# Default: 60
+	# Range: 1 ~ 100
+	output_level = 60
+	#Number of guaranteed perfect IVs
+	# Default: 3
+	# Range: 0 ~ 6
+	output_perfect_ivs = 3
+
+[deoxys_event]
+	#Enable Deoxys Event (rare catastrophic event on recipe completion)
+	enabled = true
+	#Chance of Deoxys Event triggering (0.01 = 1%)
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	chance_percent = 0.01
+	#Level of Deoxys when spawned
+	# Default: 70
+	# Range: 1 ~ 100
+	spawn_level = 70
+	#Number of guaranteed perfect IVs for Deoxys
+	# Default: 3
+	# Range: 0 ~ 6
+	perfect_ivs = 3
+	#Whether Deoxys spawns hostile (requires Fight or Flight)
+	immediately_hostile = true
+	#Whether Deoxys Event destroys the Paradox Machine
+	destroy_machine = true
+	#Whether to drop materials when machine is destroyed by Deoxys
+	return_materials = true
