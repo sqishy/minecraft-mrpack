@@ -10510,11 +10510,6 @@ file = "instance.png"
 hash = "efd488c2f003cbd4b7ef9a50a9b56c74fb2ddcb8bd4a6721fdf8eceb7a852cf2"
 
 [[files]]
-file = "mods/AdvancedLootInfo-neoforge-1.21.1-1.12.0.pw.toml"
-hash = "4ecdc8af5f830c5efbe5f32d9f1db9112b20880654479e0f213480669d9e4e3a"
-metafile = true
-
-[[files]]
 file = "mods/Almanac-1.21.1-2-neoforge-1.5.2.pw.toml"
 hash = "df4bb43c478461c51097905360a72dd5b1825ee68c9b894e764bf0c3fdb3de51"
 metafile = true
@@ -10572,11 +10567,6 @@ metafile = true
 [[files]]
 file = "mods/CraftPresence-2.7.1+1.21.1-neoforge.pw.toml"
 hash = "d29eea0e0c170f0d66cc4ff16e767d592d5ee4e537dbaff8192585ba1b42d6e4"
-metafile = true
-
-[[files]]
-file = "mods/EMIProfessions-neoforge-1.21.1-1.0.3.pw.toml"
-hash = "083d43cd7fcb7a0e6eab8881c0581a561873d097c2edb382e4268427a7ab9c24"
 metafile = true
 
 [[files]]
@@ -10766,11 +10756,11 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "a001dbc1149a9bff7cf987f6828f610891785f27d703b2a48534846bf2b8d1a1"
+hash = "40b4e53c9c8243bf3b0117ebb9a40a14163432fe609b24f5af33289409da0cfa"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
-hash = "d67657e450e2f742b9959d7fbc8f3b74614472ab29a1668d6bdd4964157dae7e"
+hash = "771106eb13211c9e4c3d282ae0b674c0ff3a5ae4edf207d9d3937bb3b80b4e27"
 
 [[files]]
 file = "mods/cobblemon_battle_tower-neoforge-1.10.22.pw.toml"
@@ -10813,33 +10803,8 @@ hash = "8adb572a364924040d255415f82ac867805869d9d8aef953aabac5ba03fea43a"
 metafile = true
 
 [[files]]
-file = "mods/emi-1.1.24+1.21.1+neoforge.pw.toml"
-hash = "05e0ca2be6f40919df7096b9e155e53b877fe4eb6c19d333fa652fb0a3b5352e"
-metafile = true
-
-[[files]]
-file = "mods/emi_enchanting-0.1.2+1.21+neoforge.pw.toml"
-hash = "8d53fe50153ba6d9ee40ea56433a865019df0ac0351c13e1dd8359a32d2c724d"
-metafile = true
-
-[[files]]
-file = "mods/emi_ores-1.2+1.21.1+neoforge.pw.toml"
-hash = "9f3f74e478d6cbc60b4b2cc6907c4696b24da21cc45d0254d373e9f5de32d4d3"
-metafile = true
-
-[[files]]
 file = "mods/enhanced_attack_indicator-1.1.1+1.21-forge.pw.toml"
 hash = "abe6d2c2bd657f310ad5489de5996b459aec3af5e115bfd9d64d6f04fd2a358b"
-metafile = true
-
-[[files]]
-file = "mods/entity_model_features-3.2.4-1.21-neoforge.pw.toml"
-hash = "a2e6bd13ae5c1820ec49f009c3880d4629ee0e08c8c08926627e333e786b2083"
-metafile = true
-
-[[files]]
-file = "mods/entity_texture_features_1.21-neoforge-7.1.pw.toml"
-hash = "1037262fa49fa96b5ad9f9b510f481e73f4dcd4791b05601d03a6854c45c6091"
 metafile = true
 
 [[files]]
@@ -10878,16 +10843,6 @@ hash = "ba85e27256a12b56503cf8865444982b29893db65ee12ace940b0748283e6704"
 metafile = true
 
 [[files]]
-file = "mods/jeed-1.21-2.3.2.pw.toml"
-hash = "4a3cd5c499ea07228dab67d0b688dd53686104c4bd2dbca7582bbf251c9ec7e0"
-metafile = true
-
-[[files]]
-file = "mods/jei-1.21.1-neoforge-19.27.0.340.pw.toml"
-hash = "71d9acd7f56ed9ea7e6a7d24671cc0a51d562dcd0dd2c3ca40f25113d084a386"
-metafile = true
-
-[[files]]
 file = "mods/konkrete_neoforge_1.9.9_MC_1.21.pw.toml"
 hash = "a664faf2739dade8f614606fc98ec0df760dbcc2014eacbe45ba070293591b35"
 metafile = true
@@ -10895,11 +10850,6 @@ metafile = true
 [[files]]
 file = "mods/kotlinforforge-5.11.0-all.pw.toml"
 hash = "2d2b6c17823acd5785742dfb01fe404720c2c65918d6a36452ec4eaf7d30a51d"
-metafile = true
-
-[[files]]
-file = "mods/lambdynamiclights-3.1.4-neo-0+1.21.1.pw.toml"
-hash = "1c27eab4abc27e5414b88dbd4adabfb4da98234ffe56efd07e507ee68d87eaae"
 metafile = true
 
 [[files]]
@@ -10940,6 +10890,11 @@ metafile = true
 [[files]]
 file = "mods/melody_neoforge_1.0.10_MC_1.21.pw.toml"
 hash = "90a9f01832581d097b46cc2f70b33edc61607adde1050cb6871b9d90579eb35f"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-neoforge-5.27.14+mc1.21.1.pw.toml"
+hash = "963d0d125ade824133f6987ea5dfc6f4ba3e974516fe1392b8297385121b624f"
 metafile = true
 
 [[files]]
@@ -11020,11 +10975,6 @@ metafile = true
 [[files]]
 file = "mods/visuality-forge-2.1.0.pw.toml"
 hash = "90bcf20e773d69e56615294078a9312b9b6f87f88087e89cdab980e08fcbed2f"
-metafile = true
-
-[[files]]
-file = "mods/wakes-1.21.1-NeoForge-1.3.6.pw.toml"
-hash = "a8ec03ba881f6fa75aac95f7157464f504e75ad08768523eb6a84cd54ead861b"
 metafile = true
 
 [[files]]
