@@ -10766,11 +10766,11 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "260591f8af3344fe74b4e7bd96f4e47239737afedfd65a9c05f93d25bd481b73"
+hash = "a001dbc1149a9bff7cf987f6828f610891785f27d703b2a48534846bf2b8d1a1"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
-hash = "2c0588e8ef1c22bb113de52198dce73ec86e7841e660244525d5fca6ea7ec7fa"
+hash = "d67657e450e2f742b9959d7fbc8f3b74614472ab29a1668d6bdd4964157dae7e"
 
 [[files]]
 file = "mods/cobblemon_battle_tower-neoforge-1.10.22.pw.toml"
