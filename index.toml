@@ -10903,6 +10903,11 @@ hash = "2bd8c1f3f77243e89b4a0c3870cd0574b7fa9752856a0c75ad17e26914898791"
 metafile = true
 
 [[files]]
+file = "mods/moreslabsstairsandwalls-4.2.0.pw.toml"
+hash = "6e2592d97b79dc585089157d42cf322e39a3872804665d03add52d92bafe4839"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix-neoforge-1.21.1-21.1.1.pw.toml"
 hash = "071c9e567c258d12166e33919fddfc5ef0ef543ecd085f196f155f412aced020"
 metafile = true
