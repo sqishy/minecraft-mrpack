@@ -1,0 +1,8 @@
+name = "Horret's Extended Megas"
+filename = "horretsextendedmega-neoforge-1.7.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9iSTkx1V/versions/AxGmb9Oh/horretsextendedmega-neoforge-1.7.6.jar"
+hash-format = "sha512"
+hash = "bd99f90cf87ed21ea82ce7c13413faf780a00ae73a6a107d50e0f67318ef800957c352ff5ea210a104cebefb5170612f5a834e1b02d963920ca87557056b8170"

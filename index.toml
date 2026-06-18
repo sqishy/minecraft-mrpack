@@ -10756,7 +10756,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "3d05bd623205c008cdae9f5cd2d4a97a37438c7448fd52c7b334f6388d3d4e39"
+hash = "afdee3f572739bb1dc6239dd1bd306e3740a77568559d221dd9a8296cfa8777b"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
@@ -10840,6 +10840,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib-neoforge-1.21.1-4.8.4.pw.toml"
 hash = "ba85e27256a12b56503cf8865444982b29893db65ee12ace940b0748283e6704"
+metafile = true
+
+[[files]]
+file = "mods/horretsextendedmega-neoforge-1.7.6.pw.toml"
+hash = "32f425095f7a2704e7f7f02fc3684356596b56b8a5f2f75f50ee82040ccc7c49"
 metafile = true
 
 [[files]]
@@ -10990,6 +10995,11 @@ metafile = true
 [[files]]
 file = "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.pw.toml"
 hash = "06217c07eef5256c9ea6d36124933a46292e76dfbdb1e773524bd23fde5850f8"
+metafile = true
+
+[[files]]
+file = "mods/zamega-neoforge-1.7.3.pw.toml"
+hash = "4a113b651ceb7f383d1e301ed4a7085c6498cfec45d0774bf439155c0c044489"
 metafile = true
 
 [[files]]
