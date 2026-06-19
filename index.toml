@@ -10515,16 +10515,6 @@ hash = "df4bb43c478461c51097905360a72dd5b1825ee68c9b894e764bf0c3fdb3de51"
 metafile = true
 
 [[files]]
-file = "mods/AmbientEnvironment-neoforge-1.21.1-18.0.0.2.pw.toml"
-hash = "150a6d841b45873f9833e722ac3e58b09faa69858d1d4f58c332348f24cb9134"
-metafile = true
-
-[[files]]
-file = "mods/BHMenu-NeoForge-1.21-2.4.4.pw.toml"
-hash = "9a0e46ac0c338fc0fb3d8e8a028d116081629050ab268c183ecbd915594b9a0c"
-metafile = true
-
-[[files]]
 file = "mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.pw.toml"
 hash = "096816eb017b262532c3e9b8406dcf865d5712ac8d02228ed15a403a5e72e386"
 metafile = true
@@ -10695,11 +10685,6 @@ hash = "400c8a96dae0499a83c3e1d9e0c9bccf10acfbfee4dee56999532fca5537e630"
 metafile = true
 
 [[files]]
-file = "mods/appleskin-neoforge-mc1.21-3.0.9.pw.toml"
-hash = "3f257567c60f43123af72c85cd954b44efd48b7444f632ded016a646ba3ebf3c"
-metafile = true
-
-[[files]]
 file = "mods/architectury-13.0.8-neoforge.pw.toml"
 hash = "7b051ff1d432c273a1781567ef9324fbcd91ea2ad806a5950a697add3e0492d2"
 metafile = true
@@ -10732,11 +10717,6 @@ metafile = true
 [[files]]
 file = "mods/bwncr-neoforge-1.21.1-3.20.4.pw.toml"
 hash = "87b266fec97aae67862898a679d3e2bd55ba7d1bd5b81836625216086222fc98"
-metafile = true
-
-[[files]]
-file = "mods/cherishedworlds-neoforge-10.1.1+1.21.1.pw.toml"
-hash = "17a9c8c5e57ae8243ff84091a3a9b63d2dbc82912c778270683cbe8acf363da8"
 metafile = true
 
 [[files]]
@@ -10783,11 +10763,6 @@ hash = "575c891f456d5da41f64a16549fcf1036a347bc58e5aa9a0fe4471c0086caa0a"
 metafile = true
 
 [[files]]
-file = "mods/craftingtweaks-neoforge-1.21.1-21.1.10.pw.toml"
-hash = "119fba18117e9791ee8036ef0a7dde73efcfe0229caa7c482d0023cabe773efc"
-metafile = true
-
-[[files]]
 file = "mods/defaultoptions-neoforge-1.21.1-21.1.6.pw.toml"
 hash = "d311b8b460c410bfef5e4a20a565487d303189d6df10d82b52da320bf9b59070"
 metafile = true
@@ -10810,11 +10785,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling-neoforge-1.10.2-mc1.21.1.pw.toml"
 hash = "4f9c09594236d579a49c48df98b5989273ce52baa94c79f5b67b4ae02ad5fa15"
-metafile = true
-
-[[files]]
-file = "mods/fallingleaves-1.21.1-2.5.1.pw.toml"
-hash = "2edd963a0e83e42a5bc54abd94d125ef0a725604c069e1ae0f2ca2ab2a717f16"
 metafile = true
 
 [[files]]
@@ -10903,11 +10873,6 @@ hash = "963d0d125ade824133f6987ea5dfc6f4ba3e974516fe1392b8297385121b624f"
 metafile = true
 
 [[files]]
-file = "mods/monsters_in_the_closet-1.0.3+1.21-forge.pw.toml"
-hash = "2bd8c1f3f77243e89b4a0c3870cd0574b7fa9752856a0c75ad17e26914898791"
-metafile = true
-
-[[files]]
 file = "mods/moreslabsstairsandwalls-4.2.0.pw.toml"
 hash = "6e2592d97b79dc585089157d42cf322e39a3872804665d03add52d92bafe4839"
 metafile = true
@@ -10928,11 +10893,6 @@ hash = "8331849bff45642bb3c96f6a83b5ba8ffaffbe83789b54106d2d1b588f42c1ac"
 metafile = true
 
 [[files]]
-file = "mods/particular-1.21.1-NeoForge-1.5.3.pw.toml"
-hash = "396f21e845cf3fd754acafa36a7097548587b3d954740875c5a39cdf7c581ba7"
-metafile = true
-
-[[files]]
 file = "mods/prickle-neoforge-1.21.1-21.1.11.pw.toml"
 hash = "817a7d2a657e35a8076a394e75d71c846ae279063abd9ba107daaa687e955751"
 metafile = true
@@ -10940,11 +10900,6 @@ metafile = true
 [[files]]
 file = "mods/resourcefullib-neoforge-1.21-3.0.12.pw.toml"
 hash = "29c20512698f685b957bc187e72b254a4da1b43add5b0b88d2c2a926fa8d5b25"
-metafile = true
-
-[[files]]
-file = "mods/shulkerboxtooltip-neoforge-5.1.9+1.21.1.pw.toml"
-hash = "73fe9fb8f2d09153126baf7425707bfc51acfbb8b674027d991c59926fdba0b8"
 metafile = true
 
 [[files]]
