@@ -10763,11 +10763,6 @@ file = "mods/cobblemon-rally.jar"
 hash = "771106eb13211c9e4c3d282ae0b674c0ff3a5ae4edf207d9d3937bb3b80b4e27"
 
 [[files]]
-file = "mods/cobblemon_battle_tower-neoforge-1.10.22.pw.toml"
-hash = "59e1aa53da9f7c94d7f6d01714f06009e333f75b623d67ae5ac6f1d774c07bc2"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon_controller_support-neoforge-1.1.5.pw.toml"
 hash = "93189666dcbe77aed43b276b7e2283467c9b660c5fa05de79a415f9719d0dc43"
 metafile = true
