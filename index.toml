@@ -10768,6 +10768,11 @@ hash = "59e1aa53da9f7c94d7f6d01714f06009e333f75b623d67ae5ac6f1d774c07bc2"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon_controller_support-neoforge-1.1.5.pw.toml"
+hash = "93189666dcbe77aed43b276b7e2283467c9b660c5fa05de79a415f9719d0dc43"
+metafile = true
+
+[[files]]
 file = "mods/cobblemonraiddens-neoforge-0.11.1+1.21.1.pw.toml"
 hash = "a5c9cbddfe86b37196aa533578455df3921cdad2a3cc150524345fc7b5574738"
 metafile = true
@@ -10938,16 +10943,6 @@ hash = "817a7d2a657e35a8076a394e75d71c846ae279063abd9ba107daaa687e955751"
 metafile = true
 
 [[files]]
-file = "mods/rbrctai-neoforge-1.21.1-0.15.3-beta.pw.toml"
-hash = "fb90fd5f8447cf9e6ca358fc2d3edf38ca7bcfbddc7d52bbff8d54c664d2ce0b"
-metafile = true
-
-[[files]]
-file = "mods/rctapi-neoforge-1.21.1-0.15.2-beta.pw.toml"
-hash = "fc9ba068b9c38f658fef133810b204c38398e01c4b25ccddf771ef5c386f6498"
-metafile = true
-
-[[files]]
 file = "mods/resourcefullib-neoforge-1.21-3.0.12.pw.toml"
 hash = "29c20512698f685b957bc187e72b254a4da1b43add5b0b88d2c2a926fa8d5b25"
 metafile = true
@@ -10958,13 +10953,8 @@ hash = "73fe9fb8f2d09153126baf7425707bfc51acfbb8b674027d991c59926fdba0b8"
 metafile = true
 
 [[files]]
-file = "mods/sodium-neoforge-0.8.12-beta.1+mc1.21.1.pw.toml"
-hash = "b64aea51e7456e492fcf3fb7bcfd3ad7a25094b6dd63f4de6581a83025c8c3ff"
-metafile = true
-
-[[files]]
-file = "mods/sodium-shadowy-path-blocks-neoforge-4.1.0.pw.toml"
-hash = "a86d3665bb3e5c4537abea2f7c768c6753560dcffdd4f7a60d4943b0023e9cc3"
+file = "mods/sodium-neoforge-0.6.13+mc1.21.1.pw.toml"
+hash = "c117e1dc0d4580eee61d63309056c10357b337cf44211c3c2d8a8e56f39efa39"
 metafile = true
 
 [[files]]

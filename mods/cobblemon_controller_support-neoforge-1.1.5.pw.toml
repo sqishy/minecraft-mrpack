@@ -1,0 +1,8 @@
+name = "Cobblemon Controller Support"
+filename = "cobblemon_controller_support-neoforge-1.1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ED1opfxO/versions/HKkTJK7Y/cobblemon_controller_support-neoforge-1.1.5.jar"
+hash-format = "sha512"
+hash = "8b58dae950b8ff38a346d3fba9725fffa6993e70aa88c144bb426af6abd75f719182502c3c28a016a6bb4f85c42eebcee1204bbfd73eb9be5b139cec6303b0f4"
