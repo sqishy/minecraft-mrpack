@@ -10748,6 +10748,11 @@ hash = "93189666dcbe77aed43b276b7e2283467c9b660c5fa05de79a415f9719d0dc43"
 metafile = true
 
 [[files]]
+file = "mods/cobblemonarmory-1.5.4-neoforge-1.21.1.pw.toml"
+hash = "b6102b718871b27dbb3dc2429d05a219ca4477ce774671dffe3313460dea3220"
+metafile = true
+
+[[files]]
 file = "mods/cobblemonraiddens-neoforge-0.11.1+1.21.1.pw.toml"
 hash = "a5c9cbddfe86b37196aa533578455df3921cdad2a3cc150524345fc7b5574738"
 metafile = true
