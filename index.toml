@@ -9779,7 +9779,7 @@ hash = "825efa177448e6c71f877a356a767ccf05793032cb3a01fd790fa2544897af9d"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "091b884d5cc514338c8b0423e17b206dcff806e281dd517ee73818d348fe0586"
+hash = "395dbe94a20193a309d64022716bbf270f22a9556c1d4e97530d76910625430b"
 
 [[files]]
 file = "config/dimdungeons-client.toml"
@@ -10950,6 +10950,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/ATM x MSD [v3.6.1].pw.toml"
 hash = "e850198670dccf5cbec739663c25ab03c4b94790fd2a6b2e796f6ef3c546b9d0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/AllTheMons [R3.1].pw.toml"
+hash = "4f62b0415bbd285bc6dcc5c3543a0e4815a52b1011c1859c2800cfe17361ba47"
 metafile = true
 
 [[files]]
