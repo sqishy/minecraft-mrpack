@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod_resources","vanilla","fabric","file/AllTheMons [R3.1].zip"]
+resourcePacks:["mod_resources","vanilla","fabric","file/AllTheMons [R3.5.1].zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
