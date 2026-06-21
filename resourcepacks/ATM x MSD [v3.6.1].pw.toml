@@ -1,6 +1,6 @@
-name = "ATM x MSD [v3.6.1]"
+name = "AllTheMons x Mega Showdown"
 filename = "ATM x MSD [v3.6.1].zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/odZZdRCE/versions/VhwUZj8K/ATM%20x%20MSD%20%5Bv3.6.1%5D.zip"
