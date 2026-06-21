@@ -1,0 +1,8 @@
+name = "CobbleBoss"
+filename = "cobbleboss-6.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1O31TjSK/versions/kWFCN86H/cobbleboss-6.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "eb6e54454b5be800b99244011718a3593d9c659ea70d52b2dc23df58109dcad20524bb3fcbb3fb14293347465ded083d1eb6e29c5a06ec2165613fe39c4b5b3c"

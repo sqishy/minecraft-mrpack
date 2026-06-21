@@ -10555,6 +10555,11 @@ hash = "fbf2549d201748126b0575791b8dbef70400c2ce3422ffbfd5368dce8604526e"
 metafile = true
 
 [[files]]
+file = "mods/Cobbreeding-neoforge-2.2.1.pw.toml"
+hash = "370ce591fde3d3fc1fd823de42a458588de7454d9eae9d9ce5b0f91be73ba382"
+metafile = true
+
+[[files]]
 file = "mods/CraftPresence-2.7.1+1.21.1-neoforge.pw.toml"
 hash = "d29eea0e0c170f0d66cc4ff16e767d592d5ee4e537dbaff8192585ba1b42d6e4"
 metafile = true
@@ -10730,13 +10735,18 @@ hash = "4f8903551ad50d141a388e1baa43ba423df259c70e2fdaf81bad721eea8dbd83"
 metafile = true
 
 [[files]]
+file = "mods/cobbleboss-6.0.0-neoforge.pw.toml"
+hash = "40b4ca8da781d042450aab02c67a36f05b0650a264f61fccd86f9d0895a6e44d"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-battle-extras-neoforge-1.13.45.pw.toml"
 hash = "06fc474ea4482d14c61fc403847a1f22525f0b3d5205ef187b44cf1f7522e2f7"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "eb6854b7a96fdff7f3511e88ff91bbd06bb07cc8041fabe0836017fe86f06acd"
+hash = "5396eadf0e60310df721b113572c4d668771f40b68af6cb89c6ea7b0b72aea81"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
@@ -10750,11 +10760,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemonarmory-1.5.4-neoforge-1.21.1.pw.toml"
 hash = "b6102b718871b27dbb3dc2429d05a219ca4477ce774671dffe3313460dea3220"
-metafile = true
-
-[[files]]
-file = "mods/cobblemonraiddens-neoforge-0.11.1+1.21.1.pw.toml"
-hash = "a5c9cbddfe86b37196aa533578455df3921cdad2a3cc150524345fc7b5574738"
 metafile = true
 
 [[files]]
