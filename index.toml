@@ -10551,11 +10551,6 @@ metafile = true
 
 [[files]]
 file = "mods/Cobbreeding-neoforge-2.2.1.pw.toml"
-hash = "fbf2549d201748126b0575791b8dbef70400c2ce3422ffbfd5368dce8604526e"
-metafile = true
-
-[[files]]
-file = "mods/Cobbreeding-neoforge-2.2.1.pw.toml"
 hash = "370ce591fde3d3fc1fd823de42a458588de7454d9eae9d9ce5b0f91be73ba382"
 metafile = true
 
