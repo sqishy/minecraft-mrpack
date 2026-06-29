@@ -10560,6 +10560,11 @@ hash = "d29eea0e0c170f0d66cc4ff16e767d592d5ee4e537dbaff8192585ba1b42d6e4"
 metafile = true
 
 [[files]]
+file = "mods/FallingTree-1.21.1-1.21.1.11.pw.toml"
+hash = "405313674b16cf34b5fa2ab191047a9a57b4b6995afe58ff6b8fe0e5315ae81f"
+metafile = true
+
+[[files]]
 file = "mods/InvMove-0.9.3+1.21.1-NeoForge.pw.toml"
 hash = "091c9551c6bb8e49765c2d151d0839b86d622f258564ad516ba60d7a4b219fe6"
 metafile = true
@@ -10890,6 +10895,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.pw.toml"
 hash = "8331849bff45642bb3c96f6a83b5ba8ffaffbe83789b54106d2d1b588f42c1ac"
+metafile = true
+
+[[files]]
+file = "mods/pastureLoot-1.0.5+1.21.1.pw.toml"
+hash = "a34e49640be61c38e8d6ce35ecf9d330c6462b9f368a41dc50dbd45c78e65b5f"
 metafile = true
 
 [[files]]
