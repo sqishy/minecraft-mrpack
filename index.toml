@@ -10758,6 +10758,11 @@ hash = "b6102b718871b27dbb3dc2429d05a219ca4477ce774671dffe3313460dea3220"
 metafile = true
 
 [[files]]
+file = "mods/cobblenav-neoforge-2.3.3.pw.toml"
+hash = "4868edb7cc5de1a1008b146a411a2e9c4bd3a6fd659cecb120ca01d172287433"
+metafile = true
+
+[[files]]
 file = "mods/connector-2.0.0-beta.14+1.21.1-full.pw.toml"
 hash = "c3311bdee95fff831ca97df8f10ef8bfae60530b580db317e4e9dcbd4f7a6cda"
 metafile = true
