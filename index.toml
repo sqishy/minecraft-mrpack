@@ -10741,7 +10741,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "b28f7447859dd72a705a1e295bc6501983560e6f88caa2695d1f10368d474171"
+hash = "98232822cac5c99626e22045d76cf6d68674382ce0dc8bc4ed767b6941cfa5b5"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
@@ -10920,6 +10920,11 @@ metafile = true
 [[files]]
 file = "mods/sodium-neoforge-0.6.13+mc1.21.1.pw.toml"
 hash = "c117e1dc0d4580eee61d63309056c10357b337cf44211c3c2d8a8e56f39efa39"
+metafile = true
+
+[[files]]
+file = "mods/spark-1.10.124-neoforge.pw.toml"
+hash = "c9e66a3f6713170aa1d2c79b8a1bd440636e79100684f851cd63d0933bfca110"
 metafile = true
 
 [[files]]
