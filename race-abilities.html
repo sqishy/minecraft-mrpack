@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Race Abilities &mdash; Cobblemon Rally</title>
+<style>
+:root{--bg:#0b0f1a;--panel:#141a28;--panel2:#1b2436;--line:#28324a;--line2:#334063;
+  --text:#eef2fb;--muted:#93a0b8;--muted2:#6b7691;--accent:#4dd0a7;--accent2:#5aa9ff}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#16203a,var(--bg)) fixed,var(--bg);
+  color:var(--text);font:15px/1.45 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent2);text-decoration:none}
+header{padding:34px 20px 6px;text-align:center}
+h1{margin:0;font-size:34px;letter-spacing:.3px;display:inline-flex;align-items:center;gap:12px}
+.badge{font-size:13px;font-weight:700;color:#06231a;background:var(--accent);padding:3px 10px;border-radius:8px;letter-spacing:.4px}
+.tagline{color:var(--muted);max-width:760px;margin:12px auto 0;font-size:15px}
+.tagline b{color:var(--text)}
+.nav{display:inline-flex;gap:6px;margin-top:16px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px}
+.nav a{color:var(--muted);font-weight:600;font-size:14px;padding:7px 16px;border-radius:999px}
+.nav a:hover{color:var(--text)}
+.nav a.active{color:#06231a;background:var(--accent)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px 70px}
+.tools{display:flex;justify-content:center;margin:22px 0 18px}
+input[type=search]{width:100%;max-width:420px;background:var(--panel);border:1px solid var(--line);
+  color:var(--text);border-radius:10px;padding:11px 14px;font-size:15px;outline:none}
+input[type=search]:focus{border-color:var(--accent)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.acard{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  border-left:4px solid var(--tc);border-radius:14px;padding:16px 17px;transition:.15s}
+.acard:hover{border-color:var(--line2);transform:translateY(-2px)}
+.ahead{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.atype{font-size:11px;font-weight:800;letter-spacing:.4px;color:#0c0f16;padding:3px 10px;border-radius:6px;text-transform:uppercase}
+.acount{font-size:12px;color:var(--muted2);font-variant-numeric:tabular-nums}
+.aname{font-size:20px;font-weight:700;margin-bottom:5px}
+.adesc{color:var(--muted);font-size:14px;line-height:1.5}
+.empty{display:none;color:var(--muted);text-align:center;padding:50px 0}
+footer{color:var(--muted2);font-size:12px;text-align:center;padding:22px 20px 40px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Race Abilities <span class="badge">RALLY</span></h1>
+  <p class="tagline">In a Rally race, every mount gets a passive <b>ability from each of its types</b>
+    (one for a single-type Pok&eacute;mon, two for dual-types). They stack &mdash; e.g. Koraidon
+    (Fighting/Dragon) has both <b>Guts</b> and <b>Draconic Power</b>. There are 18, one per type.</p>
+  <nav class="nav"><a href="rideable.html">Rideable Mounts</a><a class="active" href="race-abilities.html">Race Abilities</a><a href="held-items.html">Held Items</a><a href="recipes.html">Recipes</a><a href="terrain.html">Terrain</a><a href="rules.html">How It Works</a></nav>
+</header>
+<div class="wrap">
+  <div class="tools"><input id="q" type="search" placeholder="Search an ability or type&hellip;" autocomplete="off"></div>
+  <div class="grid" id="grid">
+<div class="acard" style="--tc:#a8a878" data-name="extreme speed" data-type="normal"><div class="ahead"><span class="atype" style="background:#a8a878">Normal</span><span class="acount">22 mounts</span></div><div class="aname">Extreme Speed</div><div class="adesc">Free speed burst at 50% and 10% stamina.</div></div>
+<div class="acard" style="--tc:#f08030" data-name="burnout" data-type="fire"><div class="ahead"><span class="atype" style="background:#f08030">Fire</span><span class="acount">18 mounts</span></div><div class="aname">Burnout</div><div class="adesc">Recover to 50% on switch-out below 5% stamina; ignore magma speed penalty.</div></div>
+<div class="acard" style="--tc:#6890f0" data-name="aquatic" data-type="water"><div class="ahead"><span class="atype" style="background:#6890f0">Water</span><span class="acount">19 mounts</span></div><div class="aname">Aquatic</div><div class="adesc">2× speed, half stamina drain, and +50% acceleration/skill while in water.</div></div>
+<div class="acard" style="--tc:#f8d030" data-name="overdrive" data-type="electric"><div class="ahead"><span class="atype" style="background:#f8d030">Electric</span><span class="acount">12 mounts</span></div><div class="aname">Overdrive</div><div class="adesc">+20% speed after holding max speed for 5 seconds.</div></div>
+<div class="acard" style="--tc:#78c850" data-name="nature&#x27;s path" data-type="grass"><div class="ahead"><span class="atype" style="background:#78c850">Grass</span><span class="acount">9 mounts</span></div><div class="aname">Nature&#x27;s Path</div><div class="adesc">Bonus on grass terrain, plus an instant max drift boost on a 5s cooldown.</div></div>
+<div class="acard" style="--tc:#98d8d8" data-name="frost control" data-type="ice"><div class="ahead"><span class="atype" style="background:#98d8d8">Ice</span><span class="acount">11 mounts</span></div><div class="aname">Frost Control</div><div class="adesc">Up to 2× speed as stamina builds (capped at 150), and full control on ice.</div></div>
+<div class="acard" style="--tc:#c03028" data-name="guts" data-type="fighting"><div class="ahead"><span class="atype" style="background:#c03028">Fighting</span><span class="acount">8 mounts</span></div><div class="aname">Guts</div><div class="adesc">+10% effective stamina for each fatigue stack — the more tired, the stronger.</div></div>
+<div class="acard" style="--tc:#a040a0" data-name="parasitic drain" data-type="poison"><div class="ahead"><span class="atype" style="background:#a040a0">Poison</span><span class="acount">6 mounts</span></div><div class="aname">Parasitic Drain</div><div class="adesc">Steals the leftover stamina from your previous mount on switch-in.</div></div>
+<div class="acard" style="--tc:#e0c068" data-name="unstoppable" data-type="ground"><div class="ahead"><span class="atype" style="background:#e0c068">Ground</span><span class="acount">16 mounts</span></div><div class="aname">Unstoppable</div><div class="adesc">Immune to all effects while at 95%+ speed.</div></div>
+<div class="acard" style="--tc:#a890f0" data-name="glide" data-type="flying"><div class="ahead"><span class="atype" style="background:#a890f0">Flying</span><span class="acount">30 mounts</span></div><div class="aname">Glide</div><div class="adesc">Hold jump to slow your fall by 50% while airborne.</div></div>
+<div class="acard" style="--tc:#f85888" data-name="calm mind" data-type="psychic"><div class="ahead"><span class="atype" style="background:#f85888">Psychic</span><span class="acount">17 mounts</span></div><div class="aname">Calm Mind</div><div class="adesc">Maximum momentum retention, with 3s of speed carry-over on mount switch.</div></div>
+<div class="acard" style="--tc:#a8b820" data-name="immunity" data-type="bug"><div class="ahead"><span class="atype" style="background:#a8b820">Bug</span><span class="acount">9 mounts</span></div><div class="aname">Immunity</div><div class="adesc">Blocks hazards and ignores negative-terrain slowdowns (magma still slows you); positive terrain bonuses still apply.</div></div>
+<div class="acard" style="--tc:#b8a038" data-name="enduring" data-type="rock"><div class="ahead"><span class="atype" style="background:#b8a038">Rock</span><span class="acount">10 mounts</span></div><div class="aname">Enduring</div><div class="adesc">+5% stamina restored at every checkpoint.</div></div>
+<div class="acard" style="--tc:#705898" data-name="phantom stride" data-type="ghost"><div class="ahead"><span class="atype" style="background:#705898">Ghost</span><span class="acount">9 mounts</span></div><div class="aname">Phantom Stride</div><div class="adesc">Speed is always 1× on any terrain (no penalty or bonus), except soul sand (+25%). The trade-off: +10% stamina drain on everything but soul sand.</div></div>
+<div class="acard" style="--tc:#7038f8" data-name="draconic power" data-type="dragon"><div class="ahead"><span class="atype" style="background:#7038f8">Dragon</span><span class="acount">25 mounts</span></div><div class="aname">Draconic Power</div><div class="adesc">Stats scale UP as stamina drops (up to +25%) — fastest when nearly spent.</div></div>
+<div class="acard" style="--tc:#705848" data-name="nightfall" data-type="dark"><div class="ahead"><span class="atype" style="background:#705848">Dark</span><span class="acount">6 mounts</span></div><div class="aname">Nightfall</div><div class="adesc">No stamina drain while drift-boosting, but 1.5× drain otherwise.</div></div>
+<div class="acard" style="--tc:#b8b8d0" data-name="chrome finish" data-type="steel"><div class="ahead"><span class="atype" style="background:#b8b8d0">Steel</span><span class="acount">12 mounts</span></div><div class="aname">Chrome Finish</div><div class="adesc">Immune to fatigue speed penalties.</div></div>
+<div class="acard" style="--tc:#ee99ac" data-name="pixie drift" data-type="fairy"><div class="ahead"><span class="atype" style="background:#ee99ac">Fairy</span><span class="acount">6 mounts</span></div><div class="aname">Pixie Drift</div><div class="adesc">Drift boosts are 75% stronger.</div></div>
+  </div>
+  <div class="empty" id="empty">No abilities match.</div>
+</div>
+<footer>18 type abilities &middot; mirrors cobblemon_rally TypeAbilityRegistry &middot; generated by gen_rideable.py</footer>
+<script>
+const q=document.getElementById("q"), cards=[...document.querySelectorAll(".acard")], empty=document.getElementById("empty");
+q.addEventListener("input",()=>{const s=q.value.trim().toLowerCase();let n=0;
+  cards.forEach(c=>{const hit=!s||c.dataset.name.includes(s)||c.dataset.type.includes(s);
+    c.style.display=hit?"":"none"; if(hit)n++;});
+  empty.style.display=n?"none":"block";});
+</script>
+</body>
+</html>
