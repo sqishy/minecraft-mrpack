@@ -21,8 +21,8 @@ h1{margin:0;font-size:34px;letter-spacing:.3px;display:inline-flex;align-items:c
   padding:3px 10px;border-radius:8px;letter-spacing:.4px}
 .tagline{color:var(--muted);max-width:720px;margin:12px auto 0;font-size:15px}
 .tagline b{color:var(--text)}
-.nav{display:inline-flex;gap:6px;margin-top:16px;background:var(--panel);border:1px solid var(--line);
-  border-radius:999px;padding:4px}
+.nav{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:16px;max-width:100%;
+  background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px}
 .nav a{color:var(--muted);font-weight:600;font-size:14px;padding:7px 16px;border-radius:999px}
 .nav a:hover{color:var(--text)}
 .nav a.active{color:#06231a;background:var(--accent)}
@@ -88,8 +88,16 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .empty{color:var(--muted);text-align:center;padding:60px 0}
 footer{color:var(--muted2);font-size:12px;text-align:center;padding:10px 20px 40px}
 @media(max-width:1100px){.controls{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.controls{grid-template-columns:1fr}.grid{grid-template-columns:1fr}
-  .terrs{grid-template-columns:1fr}}
+@media(max-width:560px){
+  header{padding:20px 14px 4px}
+  h1{font-size:25px}
+  .tagline{font-size:14px}
+  .wrap{padding:0 12px 60px}
+  .controls{position:static;grid-template-columns:repeat(2,1fr);padding:12px 0 10px;gap:8px 10px}
+  input[type=search],select{padding:9px 10px}
+  .grid{grid-template-columns:1fr}
+  .terrs{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
