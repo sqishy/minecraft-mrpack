@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Rally Works &mdash; Cobblemon Rally</title>
+<style>
+:root{--bg:#0b0f1a;--panel:#141a28;--panel2:#1b2436;--line:#28324a;--line2:#334063;
+  --text:#eef2fb;--muted:#93a0b8;--muted2:#6b7691;--accent:#4dd0a7;--accent2:#5aa9ff}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#16203a,var(--bg)) fixed,var(--bg);
+  color:var(--text);font:15px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent2);text-decoration:none} a:hover{text-decoration:underline}
+header{padding:34px 20px 6px;text-align:center}
+h1{margin:0;font-size:34px;letter-spacing:.3px;display:inline-flex;align-items:center;gap:12px}
+.badge{font-size:13px;font-weight:700;color:#06231a;background:var(--accent);padding:3px 10px;border-radius:8px;letter-spacing:.4px}
+.tagline{color:var(--muted);max-width:720px;margin:12px auto 0;font-size:15px}
+.nav{display:inline-flex;gap:6px;margin-top:16px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px;flex-wrap:wrap}
+.nav a{color:var(--muted);font-weight:600;font-size:14px;padding:7px 16px;border-radius:999px}
+.nav a:hover{color:var(--text);text-decoration:none}
+.nav a.active{color:#06231a;background:var(--accent)}
+.wrap{max-width:820px;margin:0 auto;padding:26px 20px 70px}
+section{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  border-radius:14px;padding:20px 24px;margin-bottom:16px}
+h2{margin:0 0 6px;font-size:20px;display:flex;align-items:center;gap:10px}
+h2 .ic{font-size:22px}
+section p{color:var(--muted);margin:8px 0}
+section p b,li b{color:var(--text)}
+ul{margin:8px 0;padding-left:22px;color:var(--muted)} li{margin:5px 0}
+.stat{color:var(--text);font-weight:700}
+.callout{background:#12241c;border:1px solid #2c5f49;color:#bff3d9;border-radius:10px;padding:12px 16px;font-size:14px}
+footer{color:var(--muted2);font-size:12px;text-align:center;padding:10px 20px 40px}
+</style>
+</head>
+<body>
+<header>
+  <h1>How Rally Works <span class="badge">RALLY</span></h1>
+  <p class="tagline">A quick guide to racing in Cobblemon&nbsp;Rally &mdash; your team, stamina, drifting,
+    terrain, and how to set up a course.</p>
+  <nav class="nav"><a href="rideable.html">Rideable Mounts</a><a href="race-abilities.html">Race Abilities</a><a href="held-items.html">Held Items</a><a href="recipes.html">Recipes</a><a class="active" href="rules.html">How It Works</a></nav>
+</header>
+<div class="wrap">
+
+  <section>
+    <h2><span class="ic">🏁</span> The basics</h2>
+    <p>Rally is a <b>time-trial racing mode</b> you ride on Pok&eacute;mon. You lay out a course, mount up,
+      and race for the fastest time. Races can be run <b>solo</b> or <b>multiplayer</b>, and your times are
+      saved to a per-race <b>leaderboard</b> with your personal best.</p>
+    <p>You enter a race at a <b>Rally Kiosk</b>, which lists the registered races, leaderboards, and record
+      holders. See the <a href="recipes.html">Recipes</a> page for how to build one.</p>
+  </section>
+
+  <section>
+    <h2><span class="ic">🐎</span> Your team &mdash; up to 3 mounts</h2>
+    <p>You bring a team of <b>up to three</b> rideable Pok&eacute;mon into a race and <b>quick-switch</b>
+      between them on the fly (the mount&nbsp;2 / mount&nbsp;3 keys). The switch is seamless &mdash; your
+      speed and heading carry straight over to the new mount.</p>
+    <p>Switching is the core strategy: a <b>benched mount recovers stamina</b> while it rests, so you rotate
+      to a fresh mount before the current one tires out. Different mounts also shine on different terrain.</p>
+    <p>Which Pok&eacute;mon can you ride, and how do their ride stats compare? See
+      <a href="rideable.html">Rideable Mounts</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="ic">📊</span> Ride stats</h2>
+    <p>Every mount rolls five ride stats (as ranges, a bit like IVs):</p>
+    <ul>
+      <li><span class="stat">Speed</span> &mdash; top speed. The single biggest factor in race time.</li>
+      <li><span class="stat">Acceleration</span> &mdash; how fast you reach top speed (and recover it after slowing).</li>
+      <li><span class="stat">Skill</span> &mdash; handling: tighter, more controlled turns.</li>
+      <li><span class="stat">Jump</span> &mdash; jump strength, and it feeds into drift boosts.</li>
+      <li><span class="stat">Stamina</span> &mdash; how long the mount can run before tiring (see below).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="ic">⚡</span> Stamina &amp; fatigue</h2>
+    <p>Racing <b>drains stamina</b>. Manage it or pay for it:</p>
+    <ul>
+      <li>Each time a mount's stamina dips below the fatigue threshold, it picks up a small
+        <b>permanent speed penalty</b> for the rest of the race &mdash; run it ragged and it stays slow.</li>
+      <li>If stamina hits <b>zero</b>, the mount <b>crawls</b> at a floor speed until it recovers.</li>
+      <li><b>Benched mounts recover</b> stamina, so swap out a tired mount before it bottoms out.</li>
+    </ul>
+    <p class="callout">Rule of thumb: rotate your three mounts so each is fresh when it's out front, and none
+      ever hits zero.</p>
+  </section>
+
+  <section>
+    <h2><span class="ic">🌀</span> Steering &amp; drifting</h2>
+    <p>Turning is <b>momentum-based</b>, not instant. Hold a direction and your turn rate <b>ramps up</b>;
+      the faster you're going, the <b>wider</b> you turn. Higher <span class="stat">Skill</span> tightens all
+      of that up.</p>
+    <p><b>Drifting</b> is how you take sharp corners and gain speed: hold the drift key while steering to carve
+      a tight turn (at a small speed cost), then <b>release to fire off a speed boost</b> &mdash; the longer
+      you held the drift, the bigger the boost. Chaining clean drifts through corners is the main way to shave
+      time.</p>
+    <p>You can steer with the <b>camera (mouse)</b> or with <b>A/D (WASD mode)</b>; controllers are supported too.</p>
+  </section>
+
+  <section>
+    <h2><span class="ic">🧱</span> Terrain</h2>
+    <p>The <b>block beneath your mount</b> matters. Every tick the game reads the ground you're on and applies
+      a terrain effect &mdash; some surfaces slow you or drain extra stamina, others are neutral or fast. Ice
+      is slick and hurts handling; rough ground (mud, sand, snow) taxes stamina; and there are trap/boost pads
+      built into courses.</p>
+    <p>Mounts and items can specialize for terrain: a mount's <a href="race-abilities.html">type ability</a>
+      and its <a href="held-items.html">held item</a> can turn a bad surface into a good one.</p>
+  </section>
+
+  <section>
+    <h2><span class="ic">✨</span> Abilities &amp; held items</h2>
+    <p>Two systems let you tune a mount for a race:</p>
+    <ul>
+      <li><b>Race abilities</b> &mdash; every mount gets a passive ability from <b>each of its types</b>
+        (so a dual-type has two). They do things like scale stats as stamina drops, boost drifts, or grant
+        terrain immunity. Full list on <a href="race-abilities.html">Race Abilities</a>.</li>
+      <li><b>Held items</b> &mdash; give a mount an item and it changes how it races: more speed, more stamina,
+        stronger drifts, terrain perks, or clutch once-per-race saves. Full list on
+        <a href="held-items.html">Held Items</a>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="ic">🛠️</span> Setting up a race</h2>
+    <p>Building a course uses the Rally blocks and items (craft them &mdash; see
+      <a href="recipes.html">Recipes</a>):</p>
+    <ul>
+      <li>Place a <b>Rally Start</b> to anchor the track's start/finish.</li>
+      <li>Lay out the route and checkpoints with <b>Rally Flags</b>.</li>
+      <li>Optionally mark lanes and the course with <b>Race Line</b> blocks.</li>
+      <li>Put down a <b>Rally Kiosk</b> so players can register/enter the race and view leaderboards.</li>
+      <li>Players join by interacting with <b>Racing Reins</b> at the kiosk.</li>
+    </ul>
+  </section>
+
+  <p style="color:var(--muted2);font-size:12.5px;text-align:center;margin-top:6px">
+    This guide is a plain-English summary of the Rally systems &mdash; exact tuning values live in the mod config.</p>
+</div>
+<footer>How Cobblemon Rally works &middot; generated by gen_rideable.py</footer>
+</body>
+</html>
