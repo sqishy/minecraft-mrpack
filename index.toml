@@ -10741,11 +10741,11 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "c974edc90b9132949f4b9400ddc851d41758d592c6c38b9f53ce2be43a0c9989"
+hash = "cdf67968029df235379deb05e2b0c4e7819d9192587662f29d1c1ac9ff78033c"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
-hash = "cc54f968bf3390230b276f1f3b9032545ae334c6f34f3c37fc0aee489034d48e"
+hash = "b953d47714fa355fb488e4726a991f76cbb7c7d4ebbddaf4fc4ce58d48730ece"
 
 [[files]]
 file = "mods/cobblemon_controller_support-neoforge-1.1.5.pw.toml"
