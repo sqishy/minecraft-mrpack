@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dungeons &mdash; Cobblemon GemCraft</title>
+<style>
+:root{
+  --bg:#0b0f1a; --panel:#141a28; --panel2:#1b2436; --line:#28324a; --line2:#334063;
+  --text:#eef2fb; --muted:#93a0b8; --muted2:#6b7691;
+  --accent:#b48ce0; --accent2:#5aa9ff; --gc:#c8a2ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#241a3a,var(--bg)) fixed,var(--bg);
+  color:var(--text);font:15px/1.45 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent2);text-decoration:none}
+img{image-rendering:pixelated}
+.top{max-width:1200px;margin:0 auto;padding:14px 20px 0;font-size:13px;color:var(--muted)}
+.top a{color:var(--muted);font-weight:600}
+.top a:hover{color:var(--text)}
+header{padding:14px 20px 6px;text-align:center}
+h1{margin:0;font-size:32px;letter-spacing:.3px;display:inline-flex;align-items:center;gap:12px}
+.badge{font-size:13px;font-weight:800;color:#1a0f26;background:var(--gc);
+  padding:3px 10px;border-radius:8px;letter-spacing:.4px}
+.tagline{color:var(--muted);max-width:760px;margin:12px auto 0;font-size:15px}
+.tagline b{color:var(--text)}
+.subnav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;max-width:1100px;margin:16px auto 0;
+  background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:6px}
+.subnav a{color:var(--muted);font-weight:600;font-size:13.5px;padding:6px 13px;border-radius:10px}
+.subnav a:hover{color:var(--text);background:var(--panel2)}
+.subnav a.active{color:#1a0f26;background:var(--gc)}
+.wrap{max-width:1200px;margin:0 auto;padding:24px 20px 70px}
+h2{font-size:22px;margin:34px 0 12px}
+section p{color:var(--muted);margin:8px 0}
+section p b,li b,td b{color:var(--text)}
+ul{margin:8px 0;padding-left:22px;color:var(--muted)} li{margin:6px 0}
+.lead{color:var(--muted);font-size:15.5px;max-width:820px;line-height:1.55}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  border-radius:16px;padding:16px;transition:.15s}
+.card:hover{border-color:var(--line2);transform:translateY(-2px)}
+.chead{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.icon{width:44px;height:44px;flex:0 0 auto;background:#0c1220;border:1px solid var(--line);
+  border-radius:10px;padding:3px;object-fit:contain}
+.cname{font-size:18px;font-weight:700;line-height:1.15}
+.type{font-size:11px;font-weight:700;color:#0c0f16;padding:2px 8px;border-radius:6px;text-transform:capitalize}
+.pill{font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--panel);
+  border:1px solid var(--line);color:var(--muted)}
+.act{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.act .lab{font-size:11px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--accent)}
+.act .lab.alt{color:var(--accent2)}
+.act .lab.pas{color:var(--muted2)}
+.act .eff{color:var(--text);font-size:13.5px;margin-top:2px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13.5px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}
+th{background:var(--panel2);color:var(--text);font-weight:700}
+td{color:var(--muted)}
+.callout{background:#1a1230;border:1px solid #4a2c66;color:#dcc9f3;border-radius:12px;
+  padding:13px 16px;font-size:14px;margin:14px 0}
+.warn{background:#2a1414;border:1px solid #5f2c2c;color:#f3c9c9}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:6px 0 16px}
+input[type=search],select{background:var(--panel);border:1px solid var(--line);color:var(--text);
+  border-radius:10px;padding:9px 12px;font-size:14px;outline:none}
+input[type=search]{min-width:220px;flex:1 1 220px}
+input:focus,select:focus{border-color:var(--accent)}
+.count{color:var(--muted);font-size:13.5px;margin:2px 0 12px}
+.count b{color:var(--text)}
+footer{color:var(--muted2);font-size:12px;text-align:center;padding:20px;border-top:1px solid var(--line);margin-top:30px}
+@media(max-width:560px){header{padding:10px 14px 4px}h1{font-size:24px}.wrap{padding:16px 12px 60px}
+  .grid{grid-template-columns:1fr}.top{padding:12px 14px 0}
+  table{display:block;overflow-x:auto;white-space:nowrap}}
+</style>
+</head>
+<body>
+<div class="top"><a href="rideable.html">&larr; Cobblemon Rally</a> &nbsp;&middot;&nbsp; GemCraft</div>
+<header>
+  <h1>Dungeons <span class="badge">GEMCRAFT</span></h1>
+  <p class="tagline">Key into themed dungeons full of trainers — and valuable rewards.</p>
+<nav class="subnav"><a href="gemcraft.html">Overview</a><a href="gemcraft-gems.html">Type Gems</a><a href="gemcraft-staves.html">Terrain Staves</a><a href="gemcraft-portals.html">Aura Portals</a><a href="gemcraft-assembly.html">Assembly Blocks</a><a href="gemcraft-serums.html">Serums &amp; Potions</a><a href="gemcraft-living.html">Living Enchantment</a><a href="gemcraft-fossils.html">Fossil Revival</a><a class="active" href="gemcraft-dungeons.html">Dungeons</a><a href="gemcraft-balance.html">Balance Changes</a><a href="gemcraft-battle.html">Battle Rules</a><a href="gemcraft-repel.html">Repel Block</a></nav>
+</header>
+<div class="wrap">
+<p class="lead">GemCraft adds themed dungeons scattered through the world. Each one is a self-contained challenge packed with <b>trainers to battle</b> and <b>valuable rewards</b> to claim if you make it through.</p><h2>Getting in</h2><p>Base dungeons are locked, and you open them with a <b>Dungeon Key</b>. Keys are crafted (starting from a Tera Shard and a metal) and come in tiers — higher-tier keys open tougher dungeons with better rewards.</p><div class="grid"><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,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" alt=""><div class="cname">Tier 1 Key</div></div><p style="margin:6px 0 0">Crafted from a Tera Shard and copper — opens the first-tier dungeons.</p></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,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" alt=""><div class="cname">Tier 2 Key</div></div><p style="margin:6px 0 0">A sturdier key for the tier-2 dungeons.</p></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,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" alt=""><div class="cname">Tier 3 Key</div></div><p style="margin:6px 0 0">Opens the tier-3 dungeons.</p></div></div><h2>What’s inside</h2><ul><li><b>Trainers</b> — skilled opponents to battle your way past.</li><li><b>Rewards</b> — valuable loot for clearing the challenge.</li></ul><div class="callout">Bring a healthy, well-prepared team — dungeons are meant to test it.</div>
+</div>
+<footer>Cobblemon GemCraft &mdash; generated feature reference. Documents player-accessible content only.</footer>
+</body>
+</html>

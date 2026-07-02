@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Type Gems &mdash; Cobblemon GemCraft</title>
+<style>
+:root{
+  --bg:#0b0f1a; --panel:#141a28; --panel2:#1b2436; --line:#28324a; --line2:#334063;
+  --text:#eef2fb; --muted:#93a0b8; --muted2:#6b7691;
+  --accent:#b48ce0; --accent2:#5aa9ff; --gc:#c8a2ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#241a3a,var(--bg)) fixed,var(--bg);
+  color:var(--text);font:15px/1.45 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent2);text-decoration:none}
+img{image-rendering:pixelated}
+.top{max-width:1200px;margin:0 auto;padding:14px 20px 0;font-size:13px;color:var(--muted)}
+.top a{color:var(--muted);font-weight:600}
+.top a:hover{color:var(--text)}
+header{padding:14px 20px 6px;text-align:center}
+h1{margin:0;font-size:32px;letter-spacing:.3px;display:inline-flex;align-items:center;gap:12px}
+.badge{font-size:13px;font-weight:800;color:#1a0f26;background:var(--gc);
+  padding:3px 10px;border-radius:8px;letter-spacing:.4px}
+.tagline{color:var(--muted);max-width:760px;margin:12px auto 0;font-size:15px}
+.tagline b{color:var(--text)}
+.subnav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;max-width:1100px;margin:16px auto 0;
+  background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:6px}
+.subnav a{color:var(--muted);font-weight:600;font-size:13.5px;padding:6px 13px;border-radius:10px}
+.subnav a:hover{color:var(--text);background:var(--panel2)}
+.subnav a.active{color:#1a0f26;background:var(--gc)}
+.wrap{max-width:1200px;margin:0 auto;padding:24px 20px 70px}
+h2{font-size:22px;margin:34px 0 12px}
+section p{color:var(--muted);margin:8px 0}
+section p b,li b,td b{color:var(--text)}
+ul{margin:8px 0;padding-left:22px;color:var(--muted)} li{margin:6px 0}
+.lead{color:var(--muted);font-size:15.5px;max-width:820px;line-height:1.55}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  border-radius:16px;padding:16px;transition:.15s}
+.card:hover{border-color:var(--line2);transform:translateY(-2px)}
+.chead{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.icon{width:44px;height:44px;flex:0 0 auto;background:#0c1220;border:1px solid var(--line);
+  border-radius:10px;padding:3px;object-fit:contain}
+.cname{font-size:18px;font-weight:700;line-height:1.15}
+.type{font-size:11px;font-weight:700;color:#0c0f16;padding:2px 8px;border-radius:6px;text-transform:capitalize}
+.pill{font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--panel);
+  border:1px solid var(--line);color:var(--muted)}
+.act{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.act .lab{font-size:11px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--accent)}
+.act .lab.alt{color:var(--accent2)}
+.act .lab.pas{color:var(--muted2)}
+.act .eff{color:var(--text);font-size:13.5px;margin-top:2px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13.5px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}
+th{background:var(--panel2);color:var(--text);font-weight:700}
+td{color:var(--muted)}
+.callout{background:#1a1230;border:1px solid #4a2c66;color:#dcc9f3;border-radius:12px;
+  padding:13px 16px;font-size:14px;margin:14px 0}
+.warn{background:#2a1414;border:1px solid #5f2c2c;color:#f3c9c9}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:6px 0 16px}
+input[type=search],select{background:var(--panel);border:1px solid var(--line);color:var(--text);
+  border-radius:10px;padding:9px 12px;font-size:14px;outline:none}
+input[type=search]{min-width:220px;flex:1 1 220px}
+input:focus,select:focus{border-color:var(--accent)}
+.count{color:var(--muted);font-size:13.5px;margin:2px 0 12px}
+.count b{color:var(--text)}
+footer{color:var(--muted2);font-size:12px;text-align:center;padding:20px;border-top:1px solid var(--line);margin-top:30px}
+@media(max-width:560px){header{padding:10px 14px 4px}h1{font-size:24px}.wrap{padding:16px 12px 60px}
+  .grid{grid-template-columns:1fr}.top{padding:12px 14px 0}
+  table{display:block;overflow-x:auto;white-space:nowrap}}
+</style>
+</head>
+<body>
+<div class="top"><a href="rideable.html">&larr; Cobblemon Rally</a> &nbsp;&middot;&nbsp; GemCraft</div>
+<header>
+  <h1>Type Gems <span class="badge">GEMCRAFT</span></h1>
+  <p class="tagline">One elemental gem per type — the reagent behind staves, portals and serums.</p>
+<nav class="subnav"><a href="gemcraft.html">Overview</a><a class="active" href="gemcraft-gems.html">Type Gems</a><a href="gemcraft-staves.html">Terrain Staves</a><a href="gemcraft-portals.html">Aura Portals</a><a href="gemcraft-assembly.html">Assembly Blocks</a><a href="gemcraft-serums.html">Serums &amp; Potions</a><a href="gemcraft-living.html">Living Enchantment</a><a href="gemcraft-fossils.html">Fossil Revival</a><a href="gemcraft-dungeons.html">Dungeons</a><a href="gemcraft-balance.html">Balance Changes</a><a href="gemcraft-battle.html">Battle Rules</a><a href="gemcraft-repel.html">Repel Block</a></nav>
+</header>
+<div class="wrap">
+<p class="lead">Type Gems are the core reagent of GemCraft. There is one gem for each of the 18 elemental types, and they feed almost every system in the mod.</p><h2>What gems are used for</h2><ul><li><b>Terrain Staves</b> — every staff is crafted around the gem of its type.</li><li><b>Aura Linkers</b> — a gem attunes a linker (and its portal) to a type’s colour.</li><li><b>Serum infusion</b> — dropping a gem into a Chimera Serum infuses that type’s effect.</li><li><b>Ground Staff transform</b> — hold a gem while using a Ground staff to reshape terrain into that type’s theme.</li><li><b>Psychic Staff biome-seeking</b> — the gem sets which biome the seeker orb hunts for.</li></ul><h2>The 18 gems</h2><div class="grid"><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA1UlEQVR4nO3WPYpCQRDE8ZpyWQWv4xE28BZrvMmmXsAbmHkBr2NsYCQmIhgI6+JT09cveImIH/3/ZUUPwyRdTNGTm8/Hruftdl/dcl+/3wvZSs5KzkruQ0+uufPd7mfr+ePxv3W+WKxCtpKzkrOSK3oxs9nvpZ4Ph78wr6pzyJvNLuTTKX4jrOSs5Kzkil7cdPrT2gnNnV8u1yFbyVnJWckVvZnJ5Dt0QhMd0GAlZyVX9OZGo6/QCcPhoFPPVnJWcn70AwAAAAAAAAAAAAAAAAAAAHQnV7kWMCKR1Jt+AAAAAElFTkSuQmCC" alt=""><div><div class="cname">Normal Gem</div><span class="type" style="background:#a8a878">normal</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA20lEQVR4nO3YsUpDQRCF4bMnIoQ0aVLZW4hFujxDHkRS26ROm4cSe2vLYKNt4Ipc1Bti0mZucRsRk8z/dYeBZWGZYdiiI1ctxj7Mr1Wz/c15w34vZCs5KzkruQsduXbPDy6736xufjrrD6uPkK3krOSs5IpOzMv8dneY37/iWrDZhrJW6++Qm1bdSs5Kzkqu6MQ939+Epq4+u2fC01sdspWclZyVXNGZeby7jk3fwgxosZKzkis6c8vpVZgJs8kofApayVnJ+b8vAAAAAAAAAAAAAAAAAAAAoD+yB0ATL5onHMqfAAAAAElFTkSuQmCC" alt=""><div><div class="cname">Fire Gem</div><span class="type" style="background:#f08030">fire</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA3klEQVR4nO3UMU4CURSF4fOOijE2boQVmLgIags7rdmAlQWdGzL01hYWhphQaSPEGAP4gHbuFDTGCNz/6/7cyWSaOUVb7uZ+4mZ/fozrb953fHIW2krOSs5K7lBbrv3PH3VONz6/mH9tvI+fH0JbyVnJWckV7Ziru9Gq2bPvabgv6yL09P0ldK3z0FZyVnJWckU77vL2qbUJk3CvP3ET3l4fQ1vJWclZyRXtmV5/GDahjQ1osZKzkivac+e9QdiE7sX1QbOt5Kzk/N8fAAAAAAAAAAAAAAAAAAAAoD+yBhWTMIyTU7SUAAAAAElFTkSuQmCC" alt=""><div><div class="cname">Water Gem</div><span class="type" style="background:#6890f0">water</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA30lEQVR4nO3YMWpCURSE4bljmiAIFlb2KUIKt+MasoCswmVkD5LKRkgZ0lpFEFuJiPFpNK3nFTYhRD3/1w0HHhcuZ7i8ojP39dbzcZ7Oq+/ffK/daoRsJWclZyV3ozNX3/nm7ek7W633J+cv42XIVnJWclZyRRdmNno4HOfFMj4Ldrsw1uRjE/KminMrOSs5K7miCzcZ3sdO+IydUG3jzr++r0K2krOSs5IrujLj57u49DV0QI2VnJVc0ZUbPHVDJzz2O+GnoJWclZz/+wAAAAAAAAAAAAAAAAAAAAD6Iz+T3TDAggfXlAAAAABJRU5ErkJggg==" alt=""><div><div class="cname">Electric Gem</div><span class="type" style="background:#f8d030">electric</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA3klEQVR4nO3UMU4CURSF4fOOSLRgFdR09jbEwsrK1p7GxMrduAZKd0DvAkhISIwFiULUCIO2c6egIUTg/l/35yaT18wp2nOPoxvX+/31s9rme2ed09BWclZyVnIt7bnmP98+3/zkn6/Vxvt49BbaSs5Kzkqu6MDcP1//1vt7vgz39WodejZZhK6W8W4lZyVnJVd04AbDq7gJH3ETqsYmTF9moa3krOSs5IqOzN3TZdiEJjagwUrOSq7oyPUfemETLm67J/W2krOS838/AAAAAAAAAAAAAAAAAAAAQDvyB+8FL2LMDbsCAAAAAElFTkSuQmCC" alt=""><div><div class="cname">Grass Gem</div><span class="type" style="background:#78c850">grass</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA2klEQVR4nO3UMWoCURSF4fOOIWAK9+QqUrkQsU+VBWQPLsJGsLUJWGknpEmhkIFxBm3nTmETQtT7f93PfTxe827RjfvYbNzt7/2+/c19L6NRaCs5KzkruSfduP6ffx4Or56vq+rq/HO5DG0lZyVnJVd0Z95Xq3O3q+MxzNumCf2124VuTqfQVnJWclZyRXfubbEIO+HncAjztq5Db9fr0FZyVnJWckUPZjqfh53Qxw7osZKzkit6cK+zWdgJ48lk0G0rOSs5//cDAAAAAAAAAAAAAAAAAAAA9EcuRrQxz62a7nsAAAAASUVORK5CYII=" alt=""><div><div class="cname">Ice Gem</div><span class="type" style="background:#98d8d8">ice</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA2ElEQVR4nO3WO2rCQRTF4TPHFGlshKSxsAiKSIrsxXVkP1mDnTuwTp8dpEmt4is+2v+dwiYEH/f3dYcLw8BwLlN05WZvQzfzz3a3/8t57VY4TjElZCVnJfegK1d3/tHn32x9OJydf86XIVvJWclZyRXdmOlr/9jMi338Fvwew1jfm23Iu2puJWclZyVXdOMmo5dQ6nm1E+rOfy1XIVvJWclZyRXdmY9BL5a+wg6oWMlZyRXduffuc9gJ46dOq5mt5KzkfOkLAAAAAAAAAAAAAAAAAAAA6J+cAKiRLc89QJ1dAAAAAElFTkSuQmCC" alt=""><div><div class="cname">Fighting Gem</div><span class="type" style="background:#c03028">fighting</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA0ElEQVR4nO3Uu40CQRBF0dcPJCRiwCQCLCScdYiCYCYCPAIgJ1wSwGCNNWARw8edGgMJIcSn7vGuqtVqp6vozS1/lm729n97euS+frcf2krOSs5Krqs31/7zvU7v5vnD6XBzvvpdhbaSs5Kzkiv6MIvJ4tLsXb0L8/pch97sN6GP52NoKzkrOSu5og83H8/v2gnrv3VoKzkrOSu5oi9TjaqwE9rYAS1WclZyRV9uNpyFnTAdTDvNtpKzkvOrHwAAAAAAAAAAAAAAAAAAAKAnuQLPCy8riiLeggAAAABJRU5ErkJggg==" alt=""><div><div class="cname">Poison Gem</div><span class="type" style="background:#a040a0">poison</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA4UlEQVR4nO3WMU5CQRSF4TNHjcTEuBJX4C60taCkcQ8uwzXY6Qq0sbDQyloToaBEDAGeCu27U9AYI3D/rzu5k8k092SK1tzbXc/tPBiOv39z39HhfshWclZyVnK7WnP1zh909laen0yblfP7x/eQreSs5KzkijbM80130c4fn7Mwb75+Qn7tj0KeN/EbYSVnJWclV7ThHq7PQyeMxlUnVDv/9DIM2UrOSs5KrmjL3F6dhk6o0QEVKzkruaItd3lxEjqhe3a8085WclZy/u8HAAAAAAAAAAAAAAAAAAAA6I8sAXtAMPadaQEAAAAAAElFTkSuQmCC" alt=""><div><div class="cname">Ground Gem</div><span class="type" style="background:#e0c068">ground</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA4UlEQVR4nO3UPUoDYRSF4fMdRZE0rsja2hXY2WcDqVLYWdi5ATch9ukCKQRFhBQBCSQWQYwzaDt3ijQh5Oe+T/dyh2GaOUU77vFu7mZPZ+N6nfd1zs5DW8lZyVnJHWvHtf/505POyud/louV9+HLU2grOSs5K7miPfPQf/9r9uL7K9zr+jf05PMtdFUvQ1vJWclZyRXtufveqLUJ83CvqrgJrx+D0FZyVnJWckUHpt99DpvQxga0WMlZyRUduOur27AJlxc3R822krOS87Y/AAAAAAAAAAAAAAAAAAAAQBvyD+g/MWWC3k5XAAAAAElFTkSuQmCC" alt=""><div><div class="cname">Flying Gem</div><span class="type" style="background:#a890f0">flying</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA4ElEQVR4nO3WPU5CQRTF8TMHJDFUbsIF2NrbUdixB1kAjT0NG7I3cQuGShNiQ0FCiAiPj/bdV9AYI3D/v+7k3kymmZMpOnGr/sj1/Lmcb39z3k3nOmQrOSs5K7m2TlzzzXfbV0f3l9Xm6Pzl6z1kKzkrOSu5ojMzfXze1/N8vQrzah+/CZPFLOSfbRWylZyVnJVc0Zmb9IaxEzbfYb7exU54m32EbCVnJWclV3RhXh8GoROa6IAGKzkruaILN77rhU54ur1v1bOVnJWc//sCAAAAAAAAAAAAAAAAAAAA+iMHXv0wUscuhvEAAAAASUVORK5CYII=" alt=""><div><div class="cname">Psychic Gem</div><span class="type" style="background:#f85888">psychic</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA30lEQVR4nO3XMUpDQRSF4TMnQgQlhZ2QgMtJ5xZsXYgbCHaWNuIKsog0qSxsBSHYaUiC80za3BSvETHJ/b/ucIdhmntgivbc0/jK2/ljVpvf3Hd2Hq5TTAlZyVnJnWjP7e5897S0nl8t163z6WQRspWclZyVXNGBeXgehCWff/2EedPEDnh/qyHX7zi3krOSs5IrOnD3j/3YCZ+xE2qNO//6sgrZSs5Kzkqu6MjcjS5bPwN0wA4rOSu5oiN3c3sROmF43etsZys5Kzn/9wMAAAAAAAAAAAAAAAAAAAD0RzapuC8vRQ+9jgAAAABJRU5ErkJggg==" alt=""><div><div class="cname">Bug Gem</div><span class="type" style="background:#a8b820">bug</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA5UlEQVR4nO3WPUpDQRTF8TPHgCG4gJRZgI3YZAOpswBX4CqygjQhCxDsXIGLsLOwsUwTQRAM0ZAXtX33FWkk5OP+f93hwDAw3MsUHbjHu77r+e19tfnPeRedVshWclZyVnItHbjmzLfPt7/Z9+pna//0/BGylZyVnJVc0ZF5mF7/1vNiGb8FmyrUms2/Ql6vY28lZyVnJVd05O7HV2GoP5dV6KvGTnh5XYRsJWclZyVXdGImo8s49A3sgAYrOSu5ohN3e9MLO2E46J7Vs5WclZz3fQEAAAAAAAAAAAAAAAAAAADtyB8fyC9jazWOhAAAAABJRU5ErkJggg==" alt=""><div><div class="cname">Rock Gem</div><span class="type" style="background:#b8a038">rock</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA4ElEQVR4nO3WPU5CQRTF8TNHJMaFWBNXoI2dBRVaW9jSugErFsDGbI0dMTGSSPwC3sP23VfQECJw/7/u5N5MppmTKdpxw5uxm/nj873a5LyT7mnIVnJWclZyHe249ps/7nTX7i+W87Xzl8lTyFZyVnJWckV75r4/WjXz7/w7zOtV/CZMZ68hV9UyZCs5KzkruaI9d3f9GDrhZ/EV5nUdO2Hy9hyylZyVnJVc0YG5vXoIndBGB7RYyVnJFR24i/NB6ITe2eVRM1vJWcn5vy8AAAAAAAAAAAAAAAAAAACgLfkDmtIuwlYLHGoAAAAASUVORK5CYII=" alt=""><div><div class="cname">Ghost Gem</div><span class="type" style="background:#705898">ghost</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA3ElEQVR4nO3UPUoDURiF4XOPEQQrO0sXYGGwSZltWFtY2LgRN5RecA9pJCCWCSFiRjMZ2/mmSBNCfr736V7uMNzmnqID9zJYut3zalJv87+L3lVoKzkrOSu5ng5c982f+3Lj93/r743nH7NRaCs5KzkruaIj83T/2bS7qmfhfN2sQk9/xqHrpgptJWclZyVXdOQe++OwCctVdxN+Q38t3kNbyVnJWckVnZiH27ewCV1sQIeVnJVc0Ykb3ryGTbi7fj5rt5WclZz3fQEAAAAAAAAAAAAAAAAAAADtyD/M+y+Y/7/RsQAAAABJRU5ErkJggg==" alt=""><div><div class="cname">Dragon Gem</div><span class="type" style="background:#7038f8">dragon</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA20lEQVR4nO3YsU4CQRSF4TNHML6FHYkdoaOSWBgbCzqtLWh9ZDsaEgiEoMLu2u7dgsYYgft/3cnsbLbYeyaZohP3/vLkdl5vd9Vv3ndz3Q/ZSs5KzkqupxPXnfl+7+ro8/vD8Yr4mC9CtpKzkrOSKzozs+lD085f34ewXjd1yMvNNuSqCtuV/g+wkrOSKzpzb8/3Yag/951OqGMnzBerkK3krOSs5IouzOvjOB70HXRAh5WclVzRhZuM7kInDAe34ULBSs5Kzv/9AQAAAAAAAAAAAAAAAAAAAPojP1PPLbWHKmy2AAAAAElFTkSuQmCC" alt=""><div><div class="cname">Dark Gem</div><span class="type" style="background:#705848">dark</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA2klEQVR4nO3UMWoCURSF4fNOUhiQbM06S3AF2YdbEBtXMGWadBYhjXVACFhmBMWZIWnnTmEjEvX+X/dzH4/XvFt05arqw/3ebr+7c+4bj59DW8lZyVnJPerKDf/8aPR08vzhsD85X63eQ1vJWclZyRXdmOXy7bffu10d5l3Xht5svkI3zTG0lZyVnJVc0Y2bz6uwE+r6J8zbtgm9Xn+GtpKzkrOSK7ozs9ki7IQhdsCAlZyVXNGdm05fw06YTF4e+m0lZyXn/34AAAAAAAAAAAAAAAAAAACALuQPWp0xsnBtG1sAAAAASUVORK5CYII=" alt=""><div><div class="cname">Steel Gem</div><span class="type" style="background:#b8b8d0">steel</span></div></div></div><div class="card"><div class="chead"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4nO3WMUoDURSF4fOOQSQI7imlG7C3cA9ZgWnsY+UG3EJWYBEQbERTBUGEgKCJJhOSdu4UaYKY5P5f93Mfj9fMZYp23OT23vUeTz6W29x31j4NbSVnJWcl19KOa37z7eOTjeen85+N88HTMLSVnJWclVzRnnm5uVvV+3P2HeaLZfxNeH1/C/1bLUJbyVnJWckV7bnH637cCdOvMJ9XVeiH0XNoKzkrOSu5ogMz6PbCTmhiBzRYyVnJFR243sVl2AlXnfOjelvJWcn5vx8AAAAAAAAAAAAAAAAAAACgP7IGvZgxh7IMoLgAAAAASUVORK5CYII=" alt=""><div><div class="cname">Fairy Gem</div><span class="type" style="background:#ee99ac">fairy</span></div></div></div></div>
+</div>
+<footer>Cobblemon GemCraft &mdash; generated feature reference. Documents player-accessible content only.</footer>
+</body>
+</html>
