@@ -10741,7 +10741,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "cdf67968029df235379deb05e2b0c4e7819d9192587662f29d1c1ac9ff78033c"
+hash = "467c89c9b7752fa11ea06672c08c00e5addf3632714031c8e9a6bc9ac589b730"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
@@ -10890,6 +10890,11 @@ metafile = true
 [[files]]
 file = "mods/netherportalfix-neoforge-1.21.1-21.1.1.pw.toml"
 hash = "071c9e567c258d12166e33919fddfc5ef0ef543ecd085f196f155f412aced020"
+metafile = true
+
+[[files]]
+file = "mods/nocreeperexplosion-1.21-1.21.5-1.0.0+neoforge.pw.toml"
+hash = "7500434d81c20e3b1878a2f306e410c89fbd744cd5ff2262db21d53fe69fde68"
 metafile = true
 
 [[files]]
