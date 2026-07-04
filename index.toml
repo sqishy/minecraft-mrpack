@@ -10741,7 +10741,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "ecc7136ea12da3e8b6e1eff2db1185c1577803106460d8df49adc100f51a8f48"
+hash = "396bdf6ad12a95323110a2a6dae3c06db0f69ca055eda77ec571f50ada87beeb"
 
 [[files]]
 file = "mods/cobblemon-pasturecollector-fabric-1.7.3-1.4.0.pw.toml"
