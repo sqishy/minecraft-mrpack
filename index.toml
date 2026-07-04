@@ -10744,11 +10744,6 @@ file = "mods/cobblemon-gemcraft.jar"
 hash = "396bdf6ad12a95323110a2a6dae3c06db0f69ca055eda77ec571f50ada87beeb"
 
 [[files]]
-file = "mods/cobblemon-pasturecollector-fabric-1.7.3-1.4.0.pw.toml"
-hash = "664ba2fc2cd4bdf77b26da5f2dfb4fccc44b9d5992be316c814801db823b7e82"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-rally.jar"
 hash = "81a30d3341a4aaa875039bce7461ce7892a48f3943e7cc6038d5fc0ae3fe083d"
 
@@ -10785,11 +10780,6 @@ metafile = true
 [[files]]
 file = "mods/dimdungeons-203-neoforge-1.21.0.pw.toml"
 hash = "543782c8397b76a10cc691958b609b2181b54cfe1d72013c331f1b72b54b0a40"
-metafile = true
-
-[[files]]
-file = "mods/droploottables-neoforge-1.7.3-1.9.0.pw.toml"
-hash = "0c35b971707a08142569575ff31d771b8e5966e971edb45482a165ae7f211ebd"
 metafile = true
 
 [[files]]
@@ -10950,11 +10940,6 @@ metafile = true
 [[files]]
 file = "mods/tectonic-3.0.22-neoforge-21.1.pw.toml"
 hash = "6086ce1b509535cd29d7c7d922cbf361d8fb54d5f865a86033db9c07498cfd01"
-metafile = true
-
-[[files]]
-file = "mods/timcore-neoforge-1.7.3-1.32.0.pw.toml"
-hash = "fcdff70e42059d560693addb673b3511159e5d2d20b2391b8880c7f187e2201f"
 metafile = true
 
 [[files]]
