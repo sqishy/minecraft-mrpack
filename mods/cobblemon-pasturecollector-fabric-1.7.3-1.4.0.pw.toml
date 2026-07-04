@@ -1,0 +1,8 @@
+name = "Cobblemon Pasture Collector"
+filename = "cobblemon-pasturecollector-fabric-1.7.3-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AufMZTuI/versions/bkYFr1zF/cobblemon-pasturecollector-fabric-1.7.3-1.4.0.jar"
+hash-format = "sha512"
+hash = "29d19a3a25696582c0675585b1d103a3daf399a7c2ab1089f34ae347a3a72a911388ece5c8abe62eb1aafc046bc763990668de26094be6525dc7f34d4f3b952c"
