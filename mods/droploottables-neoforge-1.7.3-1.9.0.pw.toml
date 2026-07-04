@@ -1,6 +1,6 @@
 name = "Cobblemon Drop Loot Tables"
 filename = "droploottables-neoforge-1.7.3-1.9.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/8EoIMfd7/versions/PeNY46gY/droploottables-neoforge-1.7.3-1.9.0.jar"

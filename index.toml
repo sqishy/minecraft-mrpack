@@ -10789,7 +10789,7 @@ metafile = true
 
 [[files]]
 file = "mods/droploottables-neoforge-1.7.3-1.9.0.pw.toml"
-hash = "c901f9620c6796e06261eaa2c8d03e1febdae44fd6e714ad5e196c0e3d0c5542"
+hash = "0c35b971707a08142569575ff31d771b8e5966e971edb45482a165ae7f211ebd"
 metafile = true
 
 [[files]]
@@ -10954,7 +10954,7 @@ metafile = true
 
 [[files]]
 file = "mods/timcore-neoforge-1.7.3-1.32.0.pw.toml"
-hash = "cfe9eface833850f1af1d1aa3757723de4351acc66848eea693658bb953ded45"
+hash = "fcdff70e42059d560693addb673b3511159e5d2d20b2391b8880c7f187e2201f"
 metafile = true
 
 [[files]]
