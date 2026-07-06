@@ -6,3 +6,8 @@ side = "both"
 url = "https://cdn.modrinth.com/data/sG4TqDb8/versions/1jY6MIrK/emi_ores-1.2%2B1.21.1%2Bneoforge.jar"
 hash-format = "sha512"
 hash = "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7"
+
+[option]
+optional = true
+default = false
+description = "EMI add-on: ore/world-gen info. Requires EMI — enable EMI too."
