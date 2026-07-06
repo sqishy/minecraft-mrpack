@@ -10595,6 +10595,11 @@ hash = "d867a12c6596339f1612b7408be5202a3a256e6acbd41fcd6b49df20f2b67645"
 metafile = true
 
 [[files]]
+file = "mods/NaturesCompass-1.21.1-3.4.0-neoforge.pw.toml"
+hash = "ca865bb81e1e5bba0374147051991e1a7a4947c5bfb9780e2ad4249aff1284e1"
+metafile = true
+
+[[files]]
 file = "mods/OpenLoader-neoforge-1.21.1-21.1.5.pw.toml"
 hash = "b035f05d0411b696b90c23b5bd5cb4519b803f42fcc2764faf1478343c4c5f5a"
 metafile = true
