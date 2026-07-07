@@ -10808,6 +10808,11 @@ hash = "8adb572a364924040d255415f82ac867805869d9d8aef953aabac5ba03fea43a"
 metafile = true
 
 [[files]]
+file = "mods/easybrewing-1.3.1+1.21.1-neoforge.pw.toml"
+hash = "868d233a01d61bc047f6226f9ca63eb597ab4b38f534cf51ce6795681418da67"
+metafile = true
+
+[[files]]
 file = "mods/emi-1.1.24+1.21.1+neoforge.pw.toml"
 hash = "50a201011b6b18b91cc9d6e2c6bf65eb719dbce51abe38f93c247cdb9b5f826f"
 metafile = true

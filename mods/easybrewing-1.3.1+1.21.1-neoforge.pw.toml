@@ -1,0 +1,8 @@
+name = "Easy Brewing"
+filename = "easybrewing-1.3.1+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DusK80tO/versions/cWb5uNbt/easybrewing-1.3.1%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "3b9466753e4693db99c79ae2f7096763ee7f59ee897a56cc88f67c4cf7cf71b84cb80732ac01e141f9ae16f5a68b5f170a1d9015f518b8b358c5587a341954f7"
