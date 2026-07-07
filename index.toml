@@ -10944,11 +10944,6 @@ metafile = true
 
 [[files]]
 file = "mods/nocreeperexplosion-1.21-1.21.5-1.0.0+neoforge.pw.toml"
-hash = "ffb2eb81dccc241dca99ea0db3992249e538e75644e8f164a117e91348401b02"
-metafile = true
-
-[[files]]
-file = "mods/nocreeperexplosion-1.21-1.21.5-1.0.0+neoforge.pw.toml"
 hash = "7500434d81c20e3b1878a2f306e410c89fbd744cd5ff2262db21d53fe69fde68"
 metafile = true
 
