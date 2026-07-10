@@ -10765,7 +10765,7 @@ hash = "51a2f6b65294409ccc3c5dca931ab1db8f2ba65dc6e5b61f718dc1cafb1bf121"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
-hash = "5f0a884fcb050e6f97ea433d57dd54f4d6c98c50b6a75c06dcf24ef46210abe6"
+hash = "6e518fcdc34951ca29635ec79a638790fb0872c6830a8fc0d3c641f87698e70f"
 
 [[files]]
 file = "mods/cobblemon_controller_support-neoforge-1.1.5.pw.toml"
@@ -10775,6 +10775,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemonarmory-1.5.4-neoforge-1.21.1.pw.toml"
 hash = "b6102b718871b27dbb3dc2429d05a219ca4477ce774671dffe3313460dea3220"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonchallenge-neoforge-2.4.0.pw.toml"
+hash = "ca02e70ba16b971b93aed4c0f8880dae670a3e8459edf329c462663e89afc046"
 metafile = true
 
 [[files]]
