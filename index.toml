@@ -150,6 +150,10 @@ file = "config/bhmenu-client.toml"
 hash = "ae96fe7978490359edd32f44e6297dc98e527ad6b1cb51f1b1cd1f696d057b27"
 
 [[files]]
+file = "config/bobby.conf"
+hash = "4901cfaf8af6f294ae2c129bc306678079273fdc091a5c68f0a9eb15dab5335a"
+
+[[files]]
 file = "config/bwncr-common.toml"
 hash = "a8d9256245e6a4a9ef9cd19db22432e7dccf447fa7ba803a70ebd23624e7d21b"
 
@@ -10766,7 +10770,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-gemcraft.jar"
-hash = "ee00393f85f2885c5b80e21c0e54de4837e19051e4639bfc219892921ac4b64c"
+hash = "a5f6088a68bc463aba39d4abb5caad6eb52f23528ef9988f208a6ec4601dc6e1"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
