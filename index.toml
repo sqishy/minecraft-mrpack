@@ -10735,6 +10735,11 @@ hash = "e64d253c5d91852cde87a179de72e52d8bb5befaeaa671f2a7411ed60a44f16e"
 metafile = true
 
 [[files]]
+file = "mods/bobby_reneoforged-5.2.4-0.3+mc1.21.pw.toml"
+hash = "b725f55729cab684696b2ce306dd1890ffe143069cab3f703b1c81e82a71809c"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-neoforge-1.21.1-21.1.81.pw.toml"
 hash = "7988347832eada639b6485d48a81f6fa9c1c9479d4a93c6a6732c5b502827b99"
 metafile = true
@@ -10765,7 +10770,7 @@ hash = "ee00393f85f2885c5b80e21c0e54de4837e19051e4639bfc219892921ac4b64c"
 
 [[files]]
 file = "mods/cobblemon-rally.jar"
-hash = "3c89df6bbf73a178c023ef76e16fa2c1cc221b5c8aee2678f066872289622b30"
+hash = "53c02ba27c3255cfc1e0126235dcfcfae08d49b5d7a90b97f23e1fcb6fb2370b"
 
 [[files]]
 file = "mods/cobblemon_controller_support-neoforge-1.1.5.pw.toml"
