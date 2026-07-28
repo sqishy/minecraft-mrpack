@@ -65,6 +65,8 @@ footer{color:var(--muted2);font-size:12px;text-align:center;padding:10px 20px 40
       <tr><td>Hoe</td><td>Grades the line: cuts crests, fills troughs</td></tr>
       <tr><td>Any plain block</td><td>Bridges gaps with that block &mdash; gaps only</td></tr>
     </table>
+    <p>Blocks are placed <b>without limit</b> &mdash; you hold one as a template, not a stack as a supply &mdash;
+      but only ground materials qualify. See <b>Materials</b> below.</p>
   </section>
 
   <section>
@@ -80,16 +82,39 @@ footer{color:var(--muted2);font-size:12px;text-align:center;padding:10px 20px 40
 
   <section>
     <h2>Pickaxe</h2>
-    <p>A held pickaxe <b>paves</b> the surface line with the block held in the rider's <b>off hand</b>, drawn
-      from the rider's inventory. One block is consumed per surface block placed.</p>
+    <p>A held pickaxe <b>paves</b> the surface line with the block held in the rider's <b>off hand</b>. You
+      need only <b>one</b> of that block &mdash; it is a template, not a supply. See <b>Materials</b> below.</p>
     <ul>
-      <li>Any placeable block works &mdash; stone bricks, concrete, wool, and so on.</li>
-      <li>The pickaxe has no effect if the off hand is empty, holds a non-placeable item, or the rider has none
-        of the off-hand block remaining. In Creative mode no blocks are consumed.</li>
-      <li>Surface blocks that already match the off-hand block are left unchanged.</li>
+      <li>The pickaxe has no effect if the off hand is empty or holds something that is not a track surface
+        material.</li>
+      <li>Surface blocks that already match the off-hand block are left unchanged, so re-riding a line you
+        have already paved costs nothing and changes nothing.</li>
       <li>The pickaxe re-surfaces ground that is already there. To carry the line <em>over</em> a hole, use the
         bridge instead.</li>
     </ul>
+  </section>
+
+  <section>
+    <h2>Materials</h2>
+    <p>Track building does not consume blocks. Hand-hauling 8,500 blocks for a 5&times;1700 course is not the
+      interesting part of designing one, so the paver, the grader and the bridge all place <b>without
+      limit</b> from a single block held as a template.</p>
+    <p>What keeps that from being a duplication exploit is <b>what</b> they will place. The tools accept only
+      blocks that already have a <a href="terrain.html">terrain category</a> &mdash; the ground materials the
+      race physics knows how to drive on:</p>
+    <ul>
+      <li>Grass, dirt, coarse dirt, podzol, mycelium, rooted dirt, dirt path, farmland</li>
+      <li>Stone, cobblestone, andesite, granite, diorite, tuff, calcite, deepslate and blackstone</li>
+      <li>The brick and polished families &mdash; stone bricks, smooth stone, quartz, sandstone, purpur,
+        nether brick, end stone brick, prismarine brick</li>
+      <li>Sand, red sand, gravel, clay, mud, snow, ice, magma, netherrack, nylium, soul sand, sculk, moss</li>
+    </ul>
+    <p>Everything valuable is excluded by that rule rather than by a blocklist. In particular the
+      <b>effect blocks</b> &mdash; gold, redstone, copper, emerald, lapis, amethyst, honey, slime, prismarine
+      and crying obsidian &mdash; are not terrain, so an unlimited paver can never print them. Neither can it
+      print ores, diamonds, or any build block that was never given driving characteristics.</p>
+    <div class="callout">Hold something off the list and the tool tells you so in the action bar instead of
+      silently doing nothing.</div>
   </section>
 
   <section>
@@ -126,9 +151,9 @@ footer{color:var(--muted2);font-size:12px;text-align:center;padding:10px 20px 40
       that line and fills in anything missing below it. Because the line lags the terrain, crests sit above it
       and dips below it &mdash; so driving a lumpy route turns it into a rideable slope.</p>
     <ul>
-      <li>Fill material comes from the block in your <b>off hand</b>, drawn from your inventory, one block per
-        block placed. With an empty off hand the hoe still grades &mdash; it just cuts high ground and cannot
-        fill low ground.</li>
+      <li>Fill material comes from the block in your <b>off hand</b> and is unlimited, like the paver. With an
+        empty off hand &mdash; or one holding something that is not a surface material &mdash; the hoe still
+        grades, it just cuts high ground and cannot fill low ground.</li>
       <li>Cuts up to 4 blocks above the line and fills up to 4 below it per column, both configurable.</li>
       <li>Bedrock and fluids are left alone.</li>
       <li>How hard it grades is set by <code>mountGradeSmoothingSeconds</code>: larger values flatten harder
@@ -147,8 +172,10 @@ footer{color:var(--muted2);font-size:12px;text-align:center;padding:10px 20px 40
         out across the gap instead of sloping down into it.</li>
       <li>It is laid slightly ahead of the mount, so the deck is already there when you arrive &mdash; you ride
         straight out over the drop rather than falling and catching yourself.</li>
-      <li>Blocks come from <b>your</b> inventory, not the mount's stack. A mount idly carrying a block does
-        nothing unless you are also carrying that block to spend.</li>
+      <li>The mount's block is a template and the deck is unlimited, so a single block bridges any span. It
+        must be a surface material like everything else &mdash; see <b>Materials</b> above.</li>
+      <li>Because giving the mount a block is the whole trigger, take it back off when you are done or it will
+        keep decking any gap you ride across.</li>
       <li>Default deck width is 5, set by <code>mountBridgeWidth</code>.</li>
     </ul>
   </section>
